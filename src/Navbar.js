@@ -34,7 +34,7 @@ function Navbar() {
               <a class="nav-link" href="mailto:ben@bensmithsound.uk" target="_blank" rel="noreferrer">Email Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="_files/Ben_Smith_Sound_CV.pdf" target="_blank" rel="noreferrer">Download my CV</a>
+              <a class="nav-link" href="/_files/Ben_Smith_Sound_CV.pdf" target="_blank" rel="noreferrer">Download my CV</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,7 +50,7 @@ function Navbar() {
         <div class="d-none d-lg-block">
           <a href="https://twitter.com/bensmith_96" target="_blank" rel="noreferrer">
             <img
-              src="_images/other-icons/Twitter social icons - circle - white.png"
+              src="/_images/other-icons/Twitter social icons - circle - white.png"
               height="32px" 
               class="mx-1"
               alt="Twitter logo"
@@ -58,7 +58,7 @@ function Navbar() {
           </a>
           <a href="https://github.com/bsmith96" target="_blank" rel="noreferrer">
             <img
-              src="_images/other-icons/GitHub-Mark-Light-64px.png"
+              src="/_images/other-icons/GitHub-Mark-Light-64px.png"
               height="32px"
               class="mx-1"
               alt="Github logo"

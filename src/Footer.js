@@ -10,7 +10,7 @@ function SiteFooter() {
         </div>
         <div class="col-sm-2">
           <a href="https://www.audinate.com/learning/training-certification/dante-certification-program">
-            <img class="float-end footer-image" src="_images/other-icons/dante_certified_seal_level3.png" alt="Dante certified seal level 3" height="80rem" />
+            <img class="float-end footer-image" src="/_images/other-icons/dante_certified_seal_level3.png" alt="Dante certified seal level 3" height="80rem" />
           </a>
         </div>
       </div>

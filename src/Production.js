@@ -18,7 +18,7 @@ class Productions extends React.Component {
           <div class="row gx-5 align-items-center position-relative">
             <div class="col-md-3 gy-4">
               <figure class="figure">
-                <img src={ "_images/show-posters/" + prod.prodPoster } alt={ prod.altText } class="figure-img img-fluid rounded shadow"/>
+                <img src={ "/_images/show-posters/" + prod.prodPoster } alt={ prod.altText } class="figure-img img-fluid rounded shadow"/>
               </figure>
             </div>
             <div class="col-sm gy-3">
