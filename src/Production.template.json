@@ -1,0 +1,67 @@
+{
+  "id": 0,
+  "prodPoster": "",
+  "altText": "",
+  "prodName": "",
+  "prodRole": "",
+  "prodVenue": "",
+  "prodProducer": "",
+  "prodDirector": "",
+  "prodSoundDesigner": "",
+  "prodDate": "",
+  "prodWriters": [],
+  "prodCollapseId": "",
+  "prodDescLead": "",
+  "prodDescRest": [
+    {
+      "text": ""
+    }
+  ],
+  "prodMainVideo": [
+    {
+      "width": 0
+    },
+    {
+      "height": 0
+    },
+    {
+      "url": ""
+    },
+    {
+      "title": ""
+    },
+    {
+      "frameborder": ""
+    },
+    {
+      "allow": ""
+    }
+  ],
+  "prodVideo": [
+    {
+      "width": 0
+    },
+    {
+      "height": 0
+    },
+    {
+      "url": ""
+    },
+    {
+      "title": ""
+    },
+    {
+      "frameborder": ""
+    },
+    {
+      "allow": ""
+    }
+  ],
+  "prodQuotes": [
+    {
+      "text": "",
+      "source": "",
+      "acw": true
+    }
+  ]
+}

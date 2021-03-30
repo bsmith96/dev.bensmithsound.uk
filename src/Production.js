@@ -13,6 +13,7 @@ class Productions extends React.Component {
     const { prods } = this.state;
     return (
       <div>
+        <h1 class="mt-5 page-heading">Recent Projects</h1>
         {prods.reverse().map(prod => (
         <div class="container-fluid px-4 mt-3 show-info">
           <div class="row gx-5 align-items-center position-relative">
