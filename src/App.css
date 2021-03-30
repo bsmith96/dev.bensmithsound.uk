@@ -10877,13 +10877,13 @@ body {
 .sticky-a {
   position: relative;
   transform: rotate(-4deg);
-  box-shadow: -0.035rem 0.999rem 1rem rgba(0,0,0,0.15);
+  box-shadow: -0.035rem 0.999rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .sticky-b {
   position: relative;
   transform: rotate(2deg);
-  box-shadow: 0.017rem 1.000rem 1rem rgba(0,0,0,0.15);
+  box-shadow: 0.017rem 1rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .embedded-video {
@@ -10902,4 +10902,4 @@ body {
   -webkit-filter: drop-shadow(0rem 0.5rem 1rem rgba(0, 0, 0, 0.7));
 }
 
-/*# sourceMappingURL=custom.css.map */
+/*# sourceMappingURL=App.css.map */

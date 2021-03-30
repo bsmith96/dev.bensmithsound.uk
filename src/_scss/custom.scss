@@ -1,0 +1,238 @@
+@import "../_bootstrap/scss/bootstrap";
+
+///////////////  T E R M I N A L  ///////////////
+// TO RENDER CHANGES TO App.css: 
+// sass ./src/_scss_custom.scss ./src/App.css
+///////////////  T E R M I N A L  ///////////////
+
+// Theme Colors
+$primary: #00296B;
+$secondary: #C2D9FF;
+//$light: #FFD166;
+$dark: #001329;
+
+// All pages background color
+body {
+  background-color: $light;
+  font-family: karla;
+}
+
+// Add font face
+@font-face {
+  font-family: rockSalt;
+  src: url("./_fonts/Rock_Salt/RockSalt-Regular.ttf");
+}
+
+@font-face {
+  font-family: nothingYouCouldDo;
+  src: url("./_fonts/Nothing_You_Could_Do/NothingYouCouldDo-Regular.ttf");
+}
+
+@font-face {
+  font-family: specialElite;
+  src: url("./_fonts/Special_Elite/SpecialElite-Regular.ttf");
+}
+
+@font-face {
+  font-family: raleway;
+  src: url("./_fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: karla;
+  src: url("./_fonts/Karla/Karla-VariableFont_wght.ttf");
+}
+
+// Header formatting
+.header {
+  //background-color: $blue-800;
+  background-color: $primary;
+  //color: $blue-100;
+  color: $secondary;
+  background-image: var(--bs-gradient);
+  text-shadow: 5px 3px 5px $dark;
+}
+
+.header-title {
+  //text-decoration: underline;
+  font-size: $h2-font-size;
+  font-weight: bold;
+  text-align: center;
+  font-family: rockSalt;
+}
+
+.header-subtitle {
+  text-align: center;
+  //font-size: $h4-font-size;
+  font-family: raleway;
+  font-size: $h5-font-size;
+}
+
+// Navbar
+
+.navbar-brand {
+  font-family: rockSalt;
+  text-shadow: 5px 3px 4px $dark;
+}
+
+.navbar {
+  font-family: raleway;
+}
+
+// Carousel
+
+.carousel-title {
+  font-family: rockSalt;
+  text-shadow: 2px 5px 5px $dark;
+}
+
+.carousel-desc {
+  font-family: raleway;
+  text-shadow: 4px 2px 3px $dark;
+}
+
+// Heading formatting
+.page-heading {
+  //color: $blue-900;
+  color: $primary;
+  text-align: center;
+  text-decoration: underline;
+  font-family: specialElite;
+}
+
+.page-subheading {
+  //color: $blue-800;
+  color: $primary;
+  text-align: center;
+  font-family: specialElite;
+}
+
+// Show info formatting - on home page list
+.show-info {
+  //align-items: center;
+  //background-color: $blue-200;
+  background-color: $secondary;
+  background-image: var(--bs-gradient);
+  color: $blue-900;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) inset;
+}
+
+.show-info-name {
+  //font-family: specialElite;
+  font-family: specialElite;
+  font-size: xx-large;
+  //font-size: large;
+  //font-weight: bold;
+  color: $primary;
+}
+
+.show-info-role {
+  font-size: larger;
+  font-family: raleway;
+  color: $primary;
+}
+
+.show-info-creatives {
+  font-style: italic;
+  font-family: raleway;
+  //font-family: nothingYouCouldDo;
+}
+
+.show-info-readmore {
+  font-family: nothingYouCouldDo;
+  font-size: smaller;
+}
+
+//.show-info-desc {
+//  text-align: justify;
+//  border-right: 1px solid $primary;
+//}
+
+.show-info-date {
+  text-align: right;
+  vertical-align: text-top;
+}
+
+//.show-info-sidebar {
+//  border-left: 1px solid $primary;
+//}
+
+// Show info formatting - on show specific pages
+.page-info {
+  background-color: $blue-200;
+  background-image: var(--bs-gradient);
+  color: $blue-900
+}
+
+.page-info-producer {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.page-info-venue {
+  font-size: larger;
+}
+
+.page-info-creatives {
+  font-style: italic;
+}
+
+.page-info-date {
+  text-align: right;
+  vertical-align: text-top;
+}
+
+// Blockquote attribution
+.blockquote {
+  font-family: nothingYouCouldDo;
+  color: $primary;
+}
+
+.blockquote-footer {
+  font-family: rockSalt;
+  color: $primary;
+}
+
+// Sticky note appearance
+.sticky {
+  background: $light;
+  display: block;
+  padding: 1em;
+  margin: 2em;
+}
+
+.sticky-a {
+  position: relative;
+  transform: rotate(-4deg);
+  box-shadow: -0.035rem 0.999rem 1rem rgba(0,0,0,0.15);
+}
+
+.sticky-b {
+  position: relative;
+  transform: rotate(+2deg);
+  box-shadow: 0.017rem 1.000rem 1rem rgba(0,0,0,0.15);
+}
+
+// Embedded videos
+
+.embedded-video {
+  box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.3);
+  border-radius: 0.25rem;
+}
+
+// Footer
+
+.footer {
+  background-color: $gray-400;
+  font-style: italic;
+  text-align: right;
+  background-image: var(--bs-gradient);
+}
+
+.footer-image {
+  -webkit-filter: drop-shadow(0rem 0.5rem 1rem rgba(0,0,0,0.7));
+}
+
+// Variables
+$enable-shadows: true;
+$enable-gradients: true;
