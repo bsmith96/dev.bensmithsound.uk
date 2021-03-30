@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Navbar from './Navbar';
-import SiteHeader from './SiteHeader';
-import Carousel from './Carousel';
-import AboutMe from './AboutMe';
-import Production from './Production';
-import Footer from './Footer';
+import Navbar from './Site.Navbar';
+import SiteHeader from './Site.Header';
+import Footer from './Site.Footer';
+import Carousel from './Home.Carousel';
+import AboutMe from './Home.AboutMe';
+import Production from './Home.Production';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
