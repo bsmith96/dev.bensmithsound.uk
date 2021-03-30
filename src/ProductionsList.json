@@ -1,0 +1,770 @@
+{
+  "prods": [
+    {
+      "id": 0,
+      "prodPoster": "18-08-loveacatually.jpeg",
+      "altText": "Love Aca-tually show poster",
+      "prodName": "Love Aca-tually",
+      "prodRole": "Sound Designer",
+      "prodVenue": "theSpace Triplex, Edinburgh Fringe",
+      "prodProducer": "The Bristol Suspensions",
+      "prodDirector": "Musical Direction by Eleanor Leaper",
+      "prodSoundDesigner": "",
+      "prodDate": "August 2018",
+      "prodWriters": [],
+      "prodCollapseId": "loveAcaDesc",
+      "prodDescLead": "Roses are red, violets are blue, The Bristol Suspensions have a show to do – but what happens when Cupid shoots his arrow into the rehearsal room? After months spent together perfecting their set, sparks have started to fly between these young performers – and not everybody is happy about it. From romance and relationships to rumours and rage, find out the hilarious truth about what goes on behind the scenes in a world-class a cappella group in Love Aca-tually!",
+      "prodDescRest": [
+        {
+          "text": "Fresh from placing in the top-12 groups in the world at the ICCAs, the best of the South-West are back with award-winning arrangements of hit songs, from Stevie Wonder and Elton John to The Pussycat Dolls and Foo Fighters. Bristol’s premiere collegiate a cappella group invites you to a dazzling display of vocal mastery illustrating the highs, lows, heartbreaks and happy endings of romance."
+        },
+        {
+          "text": "Following their previous hit shows, A Suspension of Disbelief, I Can’t Believe It’s Not Instruments – and their Official Edinburgh Fringe Sell-Out show – Netflix and Trill, The Bristol Suspensions are back by popular demand for their fourth successive year at the Fringe! But it’s oh-so-much-more than just singing – this group are known for their iconic stage presence, dazzling dance moves and super-human sounds, which earned them three awards for Outstanding Choreography, Arrangement and Vocal Percussion at the International Competition of Collegiate A Cappella (ICCAs). With a hilarious yet moving storyline to tie it all together, the Suspensions promise a triple-threat show of the highest order."
+        },
+        {
+          "text": "Having established themselves in only 2014, The Bristol Suspensions have launched themselves to the top of the UK Collegiate A Cappella scene, winning the Voice Festival UK in 2016, placing in the top three of the ICCA UK Finals in 2017 and 2018 respectively, and recently becoming the first UK group to ever place in the top-12 collegiate a cappella groups in the world in the International Wildcard Round. On top of their 2017 US tour, they have performed to standing ovations all around the UK, and last year made their TV debut on BBC One’s Pitch Battle."
+        }
+      ],
+      "prodMainVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        },
+        {
+          "mainColumn": false
+        }
+      ],
+      "prodVideo": [
+        {
+          "width": 734
+        },
+        {
+          "height": 411
+        },
+        {
+          "url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fthebristolsuspensions%2Fvideos%2F955437768202632%2F&show_text=false&width=734&appId=164411216927962&height=411"
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodQuotes": [
+        {
+          "text": "Love Aca-tually enjoyed a sell out run at the 2018 Edinburgh Fringe",
+          "source": "",
+          "acw": true
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "prodPoster": "18-09-fup.jpeg",
+      "altText": "Fup show poster",
+      "prodName": "Fup - a modern fable",
+      "prodRole": "Sound Operator",
+      "prodVenue": "UK Tour",
+      "prodProducer": "Kneehigh Theatre",
+      "prodDirector": "Directed by Simon Harvey",
+      "prodSoundDesigner": "Sound Design by Andy Graham",
+      "prodDate": "Sep - Oct 2018",
+      "prodWriters": [
+        {
+          "credit": "Book by Jim Dodge"
+        },
+        {
+          "credit": "Adapted by Simon Harvey"
+        },
+        {
+          "credit": "Music by Ben Sutcliffe"
+        }
+      ],
+      "prodCollapseId": "fupDesc",
+      "prodDescLead": "The Santee family are unconventional, to say the least.",
+      "prodDescRest": [
+        {
+          "text": "One hundred year old Grandaddy Jake and his enormous grandson Tiny live life on the fringes, drinking whiskey, building fences, boasting of immortality. But then, Fup arrives – an ass-kicking, web-footed, feathery sonofagun. See, Fup is a duck. A very big duck. A very big duck indeed… And she is going to change their world forever."
+        },
+        {
+          "text": "Fup is a big-hearted, uproarious modern fable about family, love and nature set in a weird and wild Cornwall not so different from this one. Featuring live, foot-stomping music, quacking puppetry and Kneehigh’s infamous eccentricity and charm, Fup is a story like no other."
+        }
+      ],
+      "prodMainVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodQuotes": [
+        {
+          "text": "\"With live music, big earthy performances and heart-melting puppetry, this comedy has a joyous, celebratory fizz and piercing melancholy\"",
+          "source": "The Times",
+          "cw": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prodPoster": "18-11-fanatical.jpeg",
+      "altText": "Fanatical show poster",
+      "prodName": "Fanatical",
+      "prodRole": "Sound No. 1 & Assistant Sound Designer",
+      "prodVenue": "Playground Theatre",
+      "prodProducer": "",
+      "prodDirector": "Directed by Grace Taylor",
+      "prodSoundDesigner": "Sound Design by Andy Graham",
+      "prodDate": "Nov - Dec 2018",
+      "prodWriters": [
+        {
+          "credit": "Music and Lyrics by Matt Board"
+        },
+        {
+          "credit": "Book by Reina Hardy"
+        }
+      ],
+      "prodCollapseId": "fanaticalDesc",
+      "prodDescLead": "FANATICAL is a brand new musical, ideal for fans of musicals and all things science fiction. It tells the story of how fans of beloved comic book turned TV show Angel 8, can save the day.",
+      "prodDescRest": [
+        {
+          "text": "Set in a UK convention centre; Angel 8 fans eagerly await the arrival of author and keynote speaker Scott Furnish (played by Stephen Frost)."
+        },
+        {
+          "text": "Fans, led by Trix (played by Suanne Braun); cannot wait to meet Furnish as the first season TV show of Angel 8 has just finished airing."
+        },
+        {
+          "text": "With a pop score, it is a fast-paced, upbeat comedy celebrating what it means to be passionate about the things you love."
+        }
+      ],
+      "prodMainVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodQuotes": []
+    },
+    {
+      "id": 3,
+      "prodPoster": "19-02-inthewillows.jpeg",
+      "altText": "In The Willows show poster",
+      "prodName": "In The Willows",
+      "prodRole": "Sound No. 1",
+      "prodVenue": "UK Tour",
+      "prodProducer": "",
+      "prodDirector": "Directed by P Burton-Morgan",
+      "prodSoundDesigner": "Sound Design by Andy Graham",
+      "prodDate": "Feb - Jun 2019",
+      "prodWriters": [
+        {
+          "credit": "Book and Lyrics by P Burton Morgan"
+        },
+        {
+          "credit": "Music by Pippa Cleary"
+        },
+        {
+          "credit": "Music and Lyrics by Keiran Merrick"
+        }
+      ],
+      "prodCollapseId": "inTheWillowsDesc",
+      "prodDescLead": "With epic show tunes and killer beats, this classic story is brought popping and locking into the twenty first century in an extraordinary new hip-hop musical. Featuring fast bikes, fierce moves and fabulous vocals.",
+      "prodDescRest": [
+        {
+          "text": "Mole’s first day in ‘The Willows’. The kids look a bit rough. Surely Mr Badger will look out for her, while hip-hop cool girl Rattie, rich kid rapper Toad and street-dancing Otter teach her the ways of The Riverbank. But when Toad gets locked up for joyriding, the Weasel Clan break in and squat his pad, Toad Hall. Now it’s only a matter of time before Chief Weasel reveals Mole’s dark secret..."
+        },
+        {
+          "text": "After their smash hit street-dance JUNGLE BOOK and circus-musical LITTLE MERMAID, the award-winning Metta Theatre bring you a bold new take on this much loved classic. Starring Olivier Award Winning Clive Rowe as Mr Badger."
+        },
+        {
+          "text": "Produced in association with Exeter Northcott Theatre."
+        }
+      ],
+      "prodMainVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodVideo": [
+        {
+          "width": 560
+        },
+        {
+          "height": 315
+        },
+        {
+          "url": "https://www.youtube.com/embed/mRpWtyWktzM"
+        },
+        {
+          "title": "YouTube video player"
+        },
+        {
+          "frameborder": 0
+        },
+        {
+          "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        },
+        {
+          "mainColumn": false
+        }
+      ],
+      "prodQuotes": []
+    },
+    {
+      "id": 4,
+      "prodPoster": "19-08-equus.jpeg",
+      "altText": "Equus show poster",
+      "prodName": "Equus",
+      "prodRole": "Sound No. 2",
+      "prodVenue": "Trafalgar Studios",
+      "prodProducer": "",
+      "prodDirector": "Directed by Ned Bennett",
+      "prodSoundDesigner": "Sound Design by Giles Thomas",
+      "prodDate": "Jun - Sep 2019",
+      "prodWriters": [
+        {
+          "credit": "Written by Peter Shaffer"
+        }
+      ],
+      "prodCollapseId": "equusDesc",
+      "prodDescLead": "The critically acclaimed production from English Touring Theatre and Theatre Royal Stratford East of Peter Shaffer’s award-winning play Equus transfers to the West End for a strictly limited season.",
+      "prodDescRest": [
+        {
+          "text": "When teenager Alan Strang’s pathological fascination leads him to blind six horses in a Hampshire stable, psychiatrist Dr. Martin Dysart is tasked with uncovering the motive behind the boy’s actions. As Dysart delves into Alan’s world of twisted spirituality, passion and sexuality, he begins to question his own sanity and motivations in a world driven by consumerism."
+        },
+        {
+          "text": "Inspired by a true story, Peter Shaffer’s ‘mesmerising’ (Evening Standard) and transfixing psychological thriller is re-imagined by award-winning director Ned Bennett in this ‘dazzling new revival’ (Sunday Times) at London’s Trafalgar Studios for 9 weeks only."
+        }
+      ],
+      "prodMainVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodQuotes": [
+        {
+          "text": "\"You will not see a better production of this masterpiece\"",
+          "source": "Observer",
+          "acw": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "prodPoster": "19-11-theseason.jpeg",
+      "altText": "The Season show poster",
+      "prodName": "The Season",
+      "prodRole": "Sound No. 1 & Associate Sound Designer",
+      "prodVenue": "Royal & Derngate | New Wolsey",
+      "prodProducer": "",
+      "prodDirector": "Directed by Tim Jackson",
+      "prodSoundDesigner": "Sound Design by Andy Graham",
+      "prodDate": "Oct - Nov 2019",
+      "prodWriters": [
+        {
+          "credit": "Book and Lyrics by Kit Buchan"
+        },
+        {
+          "credit": "Music by Jim Barne"
+        }
+      ],
+      "prodCollapseId": "seasonDesc",
+      "prodDescLead": "It’s Christmas Eve and Dougal has travelled from Northampton to New York for his father’s wedding. At JFK Airport he’s greeted by Robin. Tomorrow her sister becomes his stepmother and Robin’s dreading it. Dougal can’t wait.",
+      "prodDescRest": [
+        {
+          "text": "Thrown together for a wild weekend in the city that never sleeps, their adventure becomes a musical whirlwind of confession, frustration and excess. Will these two endearing misfits provide the ultimate test for the theory that opposites always attract?"
+        },
+        {
+          "text": "This brand new romantic comedy is filled with heart-warming and hilarious songs from writers Jim Barne and Kit Buchan, winners of the 2018 MTI Stiles + Drewe Mentorship Award, celebrating the very best of emerging British song‑writing talent."
+        }
+      ],
+      "prodMainVideo": [
+        {
+          "width": 560
+        },
+        {
+          "height": 315
+        },
+        {
+          "url": "https://www.youtube.com/embed/gaUVtdv4g4A"
+        },
+        {
+          "title": "YouTube video player"
+        },
+        {
+          "frameborder": 0
+        },
+        {
+          "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        },
+        {
+          "mainColumn": true
+        }
+      ],
+      "prodVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodQuotes": [
+        {
+          "text": "\"A quirky, quick-witted and touching musical miracle\"",
+          "source": "The Times",
+          "acw": true
+        },
+        {
+          "text": "\"Newcomers Jim Barne and Kit Buchan have written a classic Christmas romance enhanced by confident production\"",
+          "source": "The Guardian",
+          "cw": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "prodPoster": "19-12-pippi.jpeg",
+      "altText": "Pippi Longstocking show poster",
+      "prodName": "Pippi Longstocking",
+      "prodRole": "Sound No. 1",
+      "prodVenue": "Royal & Derngate",
+      "prodProducer": "",
+      "prodDirector": "Directed by Jesse Jones & Helena Middleton",
+      "prodSoundDesigner": "Sound Design by Dominic Bilkey",
+      "prodDate": "December 2019",
+      "prodWriters": [
+        {
+          "credit": "Original book by Astrid Lindgren"
+        },
+        {
+          "credit": "Adapted by Mike Akers"
+        },
+        {
+          "credit": "Music by Stu Barker"
+        }
+      ],
+      "prodCollapseId": "pippiDesc",
+      "prodDescLead": "Nine-year-old Pippi is strong, brave and fearless. When she comes to live in her new home with her monkey and horse but with no parents and no rules, she brings mischief, chaos and confusion to the folk of this ordinary Midlands town. Pippi takes charge of her own crazy adventures, with her two new friends, Tommy and Annika. What else would you expect from the daughter of a swashbuckling pirate captain?",
+      "prodDescRest": [
+        {
+          "text": "Celebrating 75 years since Astrid Lindgren first conceived Pippi Longstocking as “the strongest girl in the world”, this spectacular world premiere of one of our best loved children’s books will burst onto the stage in an epic musical Christmas adventure created especially for Christmas audiences."
+        },
+        {
+          "text": "Adapted by Mike Akers (Peter Pan) and composed by Stu Barker, whose West End and Broadway credits with Kneehigh Theatre Company include Brief Encounter and The Red Shoes, this joyful production will be directed by The Wardrobe Ensemble’s Jesse Jones and Helena Middleton."
+        }
+      ],
+      "prodMainVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodQuotes": [
+        {
+          "text": "\"Mischief isn’t something you think up, it just happens\"",
+          "source": "Astrid Lindgren",
+          "cw": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "prodPoster": "20-01-jpgffs.jpeg",
+      "altText": "Fashion Freak Show poster",
+      "prodName": "Jean Paul Gaultier's Fashion Freak Show",
+      "prodRole": "Sound No. 2",
+      "prodVenue": "International Tour",
+      "prodProducer": "",
+      "prodDirector": "Directed by Jean Paul Gaultier",
+      "prodSoundDesigner": "Associate Direction by Fanny Coindet",
+      "prodDate": "Jan - Feb 2020",
+      "prodWriters": [],
+      "prodCollapseId": "ffsDesc",
+      "prodDescLead": "Ladies and gentlemen, leave behind the mundane, the bleak and the boring and escape to the delightfully crazy world of Jean Paul Gaultier!",
+      "prodDescRest": [
+        {
+          "text": "In this extraordinary production, actors, dancers and circus artists will take to the stage and play outlandish, passionate, larger than life, rude, sexy, sassy creatures and personalities. As author, director and set designer, Jean Paul Gaultier takes a look at our times in both an extravagant and tender way, and invites us behind the scenes into his world filled with excess, poetry and magic. From his childhood to his early career, from his greatest fashion shows to the wild nights in Le Palace or London, Jean Paul Gaultier shares his journal of the times and pays tribute to those who have inspired him in film (Pedro Almodovar, Luc Besson), music (Madonna, Kylie Minogue, Mylène Farmer) and dance (Régine Chopinot, Angelin Prejlocaj)."
+        },
+        {
+          "text": "In this show, thought out like a grand party, Jean Paul Gaultier will surprise us yet again. For this occasion, he designed tens of new exclusive outfits to incorporate within an exuberant scenography – without forgetting to invite his most iconic creations! To carry through with this project, he collaborated with the best in their field, such as actress, scriptwriter and director Tonie Marshall, who co-directs the show, and Marion Motin (Madonna, Christine and the Queens, Stromae, RESISTE, the musical...) for choreography. From disco to funk, from pop to rock and also new wave and punk, the Fashion Freak Show is an explosive playlist of hits that have inspired the artist throughout his life. A great festive moment to enjoy irresponsibly! In Saint Petersburg from 31 January to 2 February 2020, then in Moscow from 6 to 24 February."
+        }
+      ],
+      "prodMainVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodQuotes": []
+    },
+    {
+      "id": 8,
+      "prodPoster": "20-02-piratequeen.jpeg",
+      "altText": "The Pirate Queen show poster",
+      "prodName": "The Pirate Queen",
+      "prodRole": "Sound Operator",
+      "prodVenue": "London Coliseum",
+      "prodProducer": "",
+      "prodDirector": "Directed by Drew Baker",
+      "prodSoundDesigner": "Sound Design by Olly Steel",
+      "prodDate": "February 2020",
+      "prodWriters": [
+        {
+          "credit": "Music by Claude-Michel Schonberg"
+        },
+        {
+          "credit": "Lyrics by Alain Boublil & Richard Maltby Jr."
+        },
+        {
+          "credit": "Book by Claude-Michel Schonberg & Alain Boublil"
+        }
+      ],
+      "prodCollapseId": "pirateQueenDesc",
+      "prodDescLead": "Based on the story of Grace O’Malley, the personification of Ireland, The Pirate Queen is an epic tale of love, honour, and piracy in Renaissance Ireland.",
+      "prodDescRest": [
+        {
+          "text": "In a time when women were expected to learn skills to make a good wife in the homestead, Grace defies her father and earns the title ‘The Pirate Queen’, inspiring men and women alike to follow her. When the English begin to attack and subjugate Ireland, only Grace has the strength and intelligence to negotiate peace with the powerful Queen Elizabeth I."
+        },
+        {
+          "text": "With a score by Claude-Michel Schönberg and Alain Boublil, steeped in Irish traditions and powerful ballads, The Pirate Queen is both timeless history and epic romance for the stage.\n"
+        },
+        {
+          "text": "Starring Rachel Tucker (Olivier Nominee, Elphaba in Wicked – Broadway & West End, Come From Away), Jai McDowall (Britain’s Got Talent winner) & Matt Pagan (Collabro)."
+        },
+        {
+          "text": "A charity concert production with proceeds to Leukaemia UK."
+        }
+      ],
+      "prodMainVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodQuotes": []
+    },
+    {
+      "id": 9,
+      "prodPoster": "21-03-babe.jpeg",
+      "altText": "Babe show poster",
+      "prodName": "Babe The Sheep Pig",
+      "prodRole": "Sound No. 1",
+      "prodVenue": "Bellairs Theatre",
+      "prodProducer": "Guildford School of Acting",
+      "prodDirector": "Directed by Chloe France",
+      "prodSoundDesigner": "Sound Design by Jon Higson",
+      "prodDate": "March 2021",
+      "prodWriters": [
+        {
+          "credit": "Written by David Wood"
+        },
+        {
+          "credit": "Adapted from the book by Dick King-Smith"
+        },
+        {
+          "credit": "Musical Direction by Ed Zanders"
+        }
+      ],
+      "prodCollapseId": "babeDesc",
+      "prodDescLead": "Based on the best-selling children’s book and the internationally successful film, this stage adaptation of Babe, The Sheep Pig is a delight for all the family. Character, movement and music interweave to create a timeless tale with themes of honesty, trust and acceptance.",
+      "prodDescRest": [],
+      "prodMainVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "prodQuotes": [
+        {
+          "text": "Babe was filmed and later broadcast in line with Covid-secure policies",
+          "source": "",
+          "cw": true
+        }
+      ]
+    }
+  ]
+}
