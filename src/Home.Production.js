@@ -83,22 +83,6 @@ class Productions extends React.Component {
                 </div>
               </div>
               <div class="col-md-3 mb-2 show-info-sidebar">
-              {prod.prodVideo.map(video => (
-                <div>
-                  {video.url &&
-                    <div class="ratio ratio-16x9 mt-5 mb-2">
-                      <Iframe
-                        width={video.width}
-                        height={video.height}
-                        url={video.url}
-                        title={video.title}
-                        frameborder={video.frameborder}
-                        allow={video.allow}
-                        allowfullscreen className="embedded-video"
-                      />
-                    </div> }
-                </div>
-              ))}
               {prod.prodQuotes.map(quote => (
                 <div>
                   {!quote.acw || quote.cw
@@ -119,6 +103,22 @@ class Productions extends React.Component {
                     }
                     </figure>
                   }
+                </div>
+              ))}
+              {prod.prodVideo.map(video => (
+                <div>
+                  {video.url &&
+                    <div class="ratio ratio-16x9 mt-5 mb-2">
+                      <Iframe
+                        width={video.width}
+                        height={video.height}
+                        url={video.url}
+                        title={video.title}
+                        frameborder={video.frameborder}
+                        allow={video.allow}
+                        allowfullscreen className="embedded-video"
+                      />
+                    </div> }
                 </div>
               ))}
               </div>
