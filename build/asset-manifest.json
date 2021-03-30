@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8d0f4b92.chunk.css",
+    "main.js": "/static/js/main.fc44f0c9.chunk.js",
+    "main.js.map": "/static/js/main.fc44f0c9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9eb22727.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9eb22727.js.map",
+    "static/js/2.e83a4428.chunk.js": "/static/js/2.e83a4428.chunk.js",
+    "static/js/2.e83a4428.chunk.js.map": "/static/js/2.e83a4428.chunk.js.map",
+    "static/js/3.00f5c030.chunk.js": "/static/js/3.00f5c030.chunk.js",
+    "static/js/3.00f5c030.chunk.js.map": "/static/js/3.00f5c030.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8d0f4b92.chunk.css.map": "/static/css/main.8d0f4b92.chunk.css.map",
+    "static/js/2.e83a4428.chunk.js.LICENSE.txt": "/static/js/2.e83a4428.chunk.js.LICENSE.txt",
+    "static/media/19-11-theseason-1-165.510b833f.jpg": "/static/media/19-11-theseason-1-165.510b833f.jpg",
+    "static/media/19-11-theseason-2-165.2f6c86d3.jpg": "/static/media/19-11-theseason-2-165.2f6c86d3.jpg",
+    "static/media/20-02-piratequeen-1-165.57832248.jpg": "/static/media/20-02-piratequeen-1-165.57832248.jpg",
+    "static/media/App.css": "/static/media/SpecialElite-Regular.9dc7a59a.ttf",
+    "static/media/open-iconic-bootstrap.css": "/static/media/open-iconic.f88a8f00.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9eb22727.js",
+    "static/js/2.e83a4428.chunk.js",
+    "static/css/main.8d0f4b92.chunk.css",
+    "static/js/main.fc44f0c9.chunk.js"
+  ]
+}
