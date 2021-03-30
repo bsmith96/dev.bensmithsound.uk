@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Iframe from 'react-iframe';
-import {prods} from './ProductionsList.json';
+import {prods} from './Production.list.json';
 
 
 class Productions extends React.Component {

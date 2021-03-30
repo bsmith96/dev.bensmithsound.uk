@@ -43,9 +43,6 @@
         },
         {
           "allow": ""
-        },
-        {
-          "mainColumn": false
         }
       ],
       "prodVideo": [
@@ -303,9 +300,6 @@
         },
         {
           "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        },
-        {
-          "mainColumn": false
         }
       ],
       "prodQuotes": []
@@ -431,9 +425,6 @@
         },
         {
           "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        },
-        {
-          "mainColumn": true
         }
       ],
       "prodVideo": [
