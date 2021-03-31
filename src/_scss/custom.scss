@@ -11,6 +11,17 @@ $secondary: #C2D9FF;
 //$light: #FFD166;
 $dark: #001329;
 
+// Bootstrap icons
+
+.bi::before {
+  display: inline-block;
+  content: "";
+  vertical-align: -.125em;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+
 // All pages background color
 body {
   background-color: $light;
@@ -231,6 +242,12 @@ body {
 
 .footer-image {
   -webkit-filter: drop-shadow(0rem 0.5rem 1rem rgba(0,0,0,0.7));
+}
+
+// Status
+
+.status {
+  transform: translate(0,3rem);
 }
 
 // Variables

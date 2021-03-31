@@ -4,6 +4,7 @@ import './index.css';
 import Navbar from './Site.Navbar';
 import SiteHeader from './Site.Header';
 import Footer from './Site.Footer';
+import Status from './Site.Status';
 import Carousel from './Home.Carousel';
 import AboutMe from './Home.AboutMe';
 import Production from './Home.Production';
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Navbar />
     <SiteHeader />
     <Carousel />
+    <Status />
     <AboutMe />
     <Production />
     <Footer />

@@ -1,5 +1,4 @@
 import './App.css';
-import './_images/open-iconic/font/css/open-iconic-bootstrap.css';
 
 function Navbar() {
   return (
@@ -9,11 +8,7 @@ function Navbar() {
           className="navbar-brand"
           href="#"
         >
-          <span
-            className="oi oi-headphones"
-            title="headphones"
-            aria-hidden="true"
-          ></span> Ben Smith Sound
+          <i className="bi-speaker-fill"></i> Ben Smith Sound
         </a>
         <button
           className="navbar-toggler"

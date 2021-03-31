@@ -1,0 +1,44 @@
+.fade-in-and-out {
+  animation: fade-in-and-out ease 10s;
+  -webkit-animation: fade-in-and-out ease 10s;
+  -moz-animation: fade-in-and-out ease 10s;
+  -o-animation: fade-in-and-out ease 10s;
+  -ms-animation: fade-in-and-out ease 10s;
+  
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-and-out {
+  0% {opacity:0;}
+  10% {opacity:1;}
+  90% {opacity:1;}
+  100% {opacity:0;}
+}
+@-moz-keyframes fade-in-and-out {
+  0% {opacity:0;}
+  10% {opacity:1;}
+  90% {opacity:1;}
+  100% {opacity:0;}
+}
+  
+@-webkit-keyframes fade-in-and-out {
+  0% {opacity:0;}
+  10% {opacity:1;}
+  90% {opacity:1;}
+  100% {opacity:0;}
+}
+  
+@-o-keyframes fade-in-and-out {
+  0% {opacity:0;}
+  10% {opacity:1;}
+  90% {opacity:1;}
+  100% {opacity:0;}
+}
+  
+@-ms-keyframes fade-in-and-out {
+  0% {opacity:0;}
+  10% {opacity:1;}
+  90% {opacity:1;}
+  100% {opacity:0;}
+}

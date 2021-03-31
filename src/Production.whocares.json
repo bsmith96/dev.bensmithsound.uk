@@ -8,6 +8,13 @@
   "prodProducer": "Guildford School of Acting",
   "prodDirector": "Directed by Dominic Rouse",
   "prodSoundDesigner": "Sound Design by Zoe Milton",
+  "date": {
+    "preStart": "2021-02-01",
+    "fitupStart": "2021-04-14",
+    "techStart": "2021-04-26",
+    "runStart": "2021-04-29",
+    "runEnd": "2021-04-30"
+  },
   "prodDate": "April 2021",
   "prodWriters": [
     {
