@@ -9,10 +9,39 @@ class Status extends React.Component {
     this.state = {prods};
   }
 
+  setGreeting() {
+    var greetingOptions = [
+      "Hi there!",
+      "Hey there!"
+    ]
+
+    const now = new Date();
+    var greeting = ""
+    var pickGreeting = ""
+
+    if(now.getHours() < 12) {
+      greeting = "Good morning!"
+    } else if(now.getHours() < 18 && now.getHours() >= 12) {
+      greeting = "Good afternoon!"
+    } else if(now.getHours() < 23 && now.getHours() >= 18) {
+      greeting = "Good evening!"
+    };
+
+    if(greeting) {
+      greetingOptions.push(greeting);
+      pickGreeting = greetingOptions[Math.floor(Math.random()*greetingOptions.length)];
+      return pickGreeting;
+    } else {
+      pickGreeting = greetingOptions[Math.floor(Math.random()*greetingOptions.length)];
+      return pickGreeting[0];
+    };
+  }
+
   setStatus() {
     const today = new Date();
     var prodStatus = false;
     var status = "";
+
     prods.map(prod => {
       var preStart = new Date(Date.parse(prod.date.preStart));
       var fitupStart = new Date(Date.parse(prod.date.fitupStart));
@@ -20,22 +49,22 @@ class Status extends React.Component {
       var runStart = new Date(Date.parse(prod.date.runStart));
       var runEnd = new Date(Date.parse(prod.date.runEnd));
 
-      {/*if (prod.producer) {
+      /*if (prod.producer) {
         var showRef = prod.showName + " (for " + prod.producer + ")"
       } else {
         var showRef = prod.showName
-      }*/}
+      }*/
 
       var showRef = prod.showName;
 
       if(preStart <= today && fitupStart > today) {
-        prodStatus = "in pre-production for " + showRef;
+        prodStatus = "in pre-production for <em>" + showRef + "</em>";
       } else if(fitupStart <= today && techStart > today) {
-        prodStatus = "fitting up for " + showRef;
+        prodStatus = "fitting up for <em>" + showRef + "</em>";
       } else if(techStart <= today && runStart > today) {
-        prodStatus = "in tech rehearsals for " + showRef;
+        prodStatus = "in tech rehearsals for <em>" + showRef + "</em>";
       } else if(runStart <= today && runEnd > today) {
-        prodStatus = "working on performances of " + showRef;
+        prodStatus = "working on performances of <em>" + showRef + "</em>";
       } else {
         prodStatus = false
       };
@@ -45,23 +74,27 @@ class Status extends React.Component {
         if(status === "") {
           status = "I am currently " + prodStatus;
         } else {
-          status = status.replace(", & ", ", ");
-          status = status.concat(", & " + prodStatus);
+          status = status.replace(" & ", ", ");
+          status = status.concat(" & " + prodStatus);
         }
       };
 
     })
+
     return(status + ".");
   }
 
   render() {
     return (
-      <div className="position-fixed top-0 end-0 p-3 status" style={{zIndex:'5'}}>
-        <div id="liveToast" className="toast fade-in-and-out" role="alert" aria-live="assertive" aria-atomic="true">
-          <div class="toast-body">
-            {this.setStatus()}
+      <div className="row justify-content-center">
+        {this.setStatus() !== "." &&
+        <div className="col-md-6 mt-4">
+          <div className="alert alert-primary alert-dismissible fade show" role="alert">
+            <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html: this.setStatus() }}></text>
+            <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
         </div>
+        }
       </div>
     );
   }
