@@ -12,11 +12,11 @@
       "director": "Musical Direction by Eleanor Leaper",
       "soundDesigner": "",
       "date": {
-        "preStart": "",
-        "fitupStart": "",
-        "techStart": "",
-        "runStart": "2020-02-01",
-        "runEnd": "2020-02-01"
+        "preStart": "2018-08-01",
+        "fitupStart": "2018-08-11",
+        "techStart": "2018-08-11",
+        "runStart": "2018-08-12",
+        "runEnd": "2018-08-25"
       },
       "dateString": "August 2018",
       "writers": [],
@@ -93,11 +93,11 @@
       "director": "Directed by Simon Harvey",
       "soundDesigner": "Sound Design by Andy Graham",
       "date": {
-        "preStart": "",
-        "fitupStart": "",
-        "techStart": "",
-        "runStart": "2020-02-01",
-        "runEnd": "2020-02-01"
+        "preStart": "2018-08-27",
+        "fitupStart": "2018-09-03",
+        "techStart": "2018-09-04",
+        "runStart": "2018-09-06",
+        "runEnd": "2018-10-21"
       },
       "dateString": "Sep - Oct 2018",
       "writers": [
@@ -181,11 +181,11 @@
       "director": "Directed by Grace Taylor",
       "soundDesigner": "Sound Design by Andy Graham",
       "date": {
-        "preStart": "",
-        "fitupStart": "",
-        "techStart": "",
-        "runStart": "2020-02-01",
-        "runEnd": "2020-02-01"
+        "preStart": "2018-10-29",
+        "fitupStart": "2018-11-04",
+        "techStart": "2018-11-05",
+        "runStart": "2018-11-08",
+        "runEnd": "2018-12-08"
       },
       "dateString": "Nov - Dec 2018",
       "writers": [
@@ -263,11 +263,11 @@
       "director": "Directed by P Burton-Morgan",
       "soundDesigner": "Sound Design by Andy Graham",
       "date": {
-        "preStart": "",
-        "fitupStart": "",
-        "techStart": "",
-        "runStart": "2020-02-01",
-        "runEnd": "2020-02-01"
+        "preStart": "2019-02-11",
+        "fitupStart": "2019-02-18",
+        "techStart": "2019-02-20",
+        "runStart": "2019-02-23",
+        "runEnd": "2019-06-09"
       },
       "dateString": "Feb - Jun 2019",
       "writers": [
@@ -348,11 +348,11 @@
       "director": "Directed by Ned Bennett",
       "soundDesigner": "Sound Design by Giles Thomas",
       "date": {
-        "preStart": "",
-        "fitupStart": "",
-        "techStart": "",
-        "runStart": "2020-02-01",
-        "runEnd": "2020-02-01"
+        "preStart": "2019-06-17",
+        "fitupStart": "2019-06-24",
+        "techStart": "2019-06-26",
+        "runStart": "2019-07-01",
+        "runEnd": "2019-09-07"
       },
       "dateString": "Jun - Sep 2019",
       "writers": [
@@ -430,11 +430,11 @@
       "director": "Directed by Tim Jackson",
       "soundDesigner": "Sound Design by Andy Graham",
       "date": {
-        "preStart": "",
-        "fitupStart": "",
-        "techStart": "",
-        "runStart": "2020-02-01",
-        "runEnd": "2020-02-01"
+        "preStart": "2019-10-21",
+        "fitupStart": "2019-10-27",
+        "techStart": "2019-10-29",
+        "runStart": "2019-11-01",
+        "runEnd": "2019-11-30"
       },
       "dateString": "Oct - Nov 2019",
       "writers": [
@@ -520,11 +520,11 @@
       "director": "Directed by Jesse Jones & Helena Middleton",
       "soundDesigner": "Sound Design by Dominic Bilkey",
       "date": {
-        "preStart": "",
-        "fitupStart": "",
-        "techStart": "",
-        "runStart": "2020-02-01",
-        "runEnd": "2020-02-01"
+        "preStart": "2019-11-25",
+        "fitupStart": "2019-12-02",
+        "techStart": "2019-12-03",
+        "runStart": "2019-12-10",
+        "runEnd": "2019-12-31"
       },
       "dateString": "December 2019",
       "writers": [
@@ -608,11 +608,11 @@
       "director": "Directed by Jean Paul Gaultier",
       "soundDesigner": "Associate Direction by Fanny Coindet",
       "date": {
-        "preStart": "",
-        "fitupStart": "",
-        "techStart": "",
-        "runStart": "2020-02-01",
-        "runEnd": "2020-02-01"
+        "preStart": "2020-01-13",
+        "fitupStart": "2020-01-29",
+        "techStart": "2020-01-30",
+        "runStart": "2020-01-31",
+        "runEnd": "2020-02-18"
       },
       "dateString": "Jan - Feb 2020",
       "writers": [],
@@ -680,11 +680,11 @@
       "director": "Directed by Drew Baker",
       "soundDesigner": "Sound Design by Olly Steel",
       "date": {
-        "preStart": "",
-        "fitupStart": "",
-        "techStart": "",
-        "runStart": "2020-02-01",
-        "runEnd": "2020-02-01"
+        "preStart": "2020-02-19",
+        "fitupStart": "2020-02-23",
+        "techStart": "2020-02-23",
+        "runStart": "2020-02-23",
+        "runEnd": "2020-02-23"
       },
       "dateString": "February 2020",
       "writers": [
@@ -768,11 +768,11 @@
       "director": "Directed by Chloe France",
       "soundDesigner": "Sound Design by Jon Higson",
       "date": {
-        "preStart": "",
-        "fitupStart": "",
-        "techStart": "",
-        "runStart": "2020-02-01",
-        "runEnd": "2021-07-01"
+        "preStart": "2021-02-08",
+        "fitupStart": "2021-03-01",
+        "techStart": "2021-03-08",
+        "runStart": "2021-03-11",
+        "runEnd": "2021-03-12"
       },
       "dateString": "March 2021",
       "writers": [
@@ -937,8 +937,12 @@
         }
       ],
       "collapseId": "twelfthNightDesc",
-      "descLead": "Description here",
-      "descRest": [],
+      "descLead": "Shakespeare gets a shake-up as soulful melodies and R&B beats weave through this enchanting musical adaptation of Twelfth Night.",
+      "descRest": [
+        {
+          "text": "Viola and her twin brother Sebastian wash up on the shores of Illyria and when she disguises herself as a man, a joyous whirlwind of gender-bending and unrequited love begins."
+        }
+      ],
       "mainVideo": [
         {
           "width": 0

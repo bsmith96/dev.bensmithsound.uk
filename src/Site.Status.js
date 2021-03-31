@@ -39,6 +39,7 @@ class Status extends React.Component {
 
   setStatus() {
     const today = new Date();
+    /*const today = new Date(Date.parse("2021-06-04"));*/
     var prodStatus = false;
     var status = "";
 
@@ -69,6 +70,16 @@ class Status extends React.Component {
         prodStatus = false
       };
 
+      if(runEnd >= today && runStart <= today) {
+        prodStatus = "working on performances of <em>" + showRef + "</em>";
+      } else if(runStart >= today && techStart <= today) {
+        prodStatus = "in tech rehearsals for <em>" + showRef + "</em>";
+      } else if(techStart >= today && fitupStart <= today) {
+        prodStatus = "fitting up for <em>" + showRef + "</em>";
+      } else if(fitupStart >= today && preStart <= today) {
+        prodStatus = "in pre-production for <em>" + showRef + "</em>";
+      }
+
       if(prodStatus) {
         console.log("I am " + prodStatus);
         if(status === "") {
@@ -86,18 +97,46 @@ class Status extends React.Component {
 
   render() {
     return (
-      <div className="row justify-content-center">
-        {this.setStatus() !== "." &&
-        <div className="col-md-6 mt-4">
-          <div className="alert alert-primary alert-dismissible fade show" role="alert">
-            <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html: this.setStatus() }}></text>
-            <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-          </div>
-        </div>
-        }
-      </div>
+      <div className="position-fixed top-0 end-0 p-3 status" style={{zIndex:'5'}}>
+  {this.setStatus() !== "." &&
+  <div id="liveToast" className="toast fade-in-and-out" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body">
+      <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html:this.setStatus()}}></text>
+    </div>
+  </div>
+  }
+</div>
     );
   }
 }
+
+
+/*  F L O A T I N G  */
+
+/*<div className="position-fixed top-0 end-0 p-3 status" style={{zIndex:'5'}}>
+  {this.setStatus() !== "." &&
+  <div id="liveToast" className="toast fade-in-and-out" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body">
+      <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html:this.setStatus()}}></text>
+    </div>
+  </div>
+  }
+</div>*/
+
+
+/*  A L E R T  */
+
+/*<div className="container-fluid">
+  <div className="row justify-content-center">
+    {this.setStatus() !== "." &&
+    <div className="col-md-6 mt-4">
+      <div className="alert alert-primary alert-dismissible fade show" role="alert">
+        <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html: this.setStatus() }}></text>
+        <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
+    }
+  </div>
+</div>*/
 
 export default Status;

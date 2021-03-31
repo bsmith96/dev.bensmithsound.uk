@@ -11,7 +11,8 @@ class Productions extends React.Component {
   }
 
   checkDate(prop) {
-    var currentDate = new Date();
+    const currentDate = new Date();
+    /*const currentDate = new Date(Date.parse("2021-06-04"));*/
     var runStart = new Date(Date.parse(prop));
     var hasStarted = runStart <= currentDate;
     return(hasStarted);
