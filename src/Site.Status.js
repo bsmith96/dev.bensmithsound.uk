@@ -33,7 +33,7 @@ class Status extends React.Component {
       return pickGreeting;
     } else {
       pickGreeting = greetingOptions[Math.floor(Math.random()*greetingOptions.length)];
-      return pickGreeting[0];
+      return pickGreeting;
     };
   }
 
@@ -95,17 +95,55 @@ class Status extends React.Component {
     return(status + ".");
   }
 
+  getDate() {
+    const today = new Date();
+    const months = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'October',
+      'November',
+      'December'
+    ]
+
+    const days = [
+      'Monday',
+      'Tuesday',
+      'Wednesday',
+      'Thursday',
+      'Friday',
+      'Saturday',
+      'Sunday'
+    ]
+
+    const todayYear = today.getFullYear();
+    const todayMonth = months[today.getMonth()];
+    const todayDate = today.getDate();
+    const todayDay = days[today.getDay()];
+
+    return todayDay + ", " + todayDate + " " + todayMonth + " " + todayYear;
+  }
+
   render() {
     return (
-      <div className="position-fixed top-0 end-0 p-3 status" style={{zIndex:'5'}}>
-  {this.setStatus() !== "." &&
-  <div id="liveToast" className="toast fade-in-and-out" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-body">
-      <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html:this.setStatus()}}></text>
-    </div>
-  </div>
-  }
-</div>
+      <div className="container-fluid">
+        <div className="row justify-content-center">
+          {this.setStatus() !== "." &&
+            <div className="col-md-6 mt-4">
+              <p class="text-end"><span class="badge bg-secondary">{this.getDate()}</span></p>
+              <div className="alert alert-primary fade show" role="alert">
+                <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html: this.setStatus() }}></text>
+              </div>
+            </div>
+          }
+        </div>
+      </div>
     );
   }
 }
@@ -126,17 +164,17 @@ class Status extends React.Component {
 
 /*  A L E R T  */
 
-/*<div className="container-fluid">
-  <div className="row justify-content-center">
-    {this.setStatus() !== "." &&
-    <div className="col-md-6 mt-4">
-      <div className="alert alert-primary alert-dismissible fade show" role="alert">
-        <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html: this.setStatus() }}></text>
-        <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div>
-    </div>
-    }
-  </div>
-</div>*/
+/*      <div className="container-fluid">
+        <div className="row justify-content-center">
+          {this.setStatus() !== "." &&
+            <div className="col-md-6 mt-4">
+              <p class="text-end"><span class="badge bg-secondary">{this.getDate()}</span></p>
+              <div className="alert alert-primary fade show" role="alert">
+                <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html: this.setStatus() }}></text>
+              </div>
+            </div>
+          }
+        </div>
+      </div>*/
 
 export default Status;
