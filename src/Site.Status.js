@@ -80,7 +80,6 @@ class Status extends React.Component {
       }
 
       if(prodStatus) {
-        console.log("I am " + prodStatus);
         if(status === "") {
           status = "I am currently " + prodStatus;
         } else {
