@@ -2,7 +2,7 @@
 
 ///////////////  T E R M I N A L  ///////////////
 // TO RENDER CHANGES TO App.css: 
-// sass ./src/_scss_custom.scss ./src/App.css
+// sass ./src/_scss/custom.scss ./src/App.css
 ///////////////  T E R M I N A L  ///////////////
 
 // Theme Colors
@@ -25,7 +25,7 @@ $dark: #001329;
 // All pages background color
 body {
   background-color: $light;
-  font-family: karla;
+  font-family: karla, sans-serif;
 }
 
 // Add font face
@@ -69,36 +69,36 @@ body {
   font-size: $h2-font-size;
   font-weight: bold;
   text-align: center;
-  font-family: rockSalt;
+  font-family: rockSalt, sans-serif;
 }
 
 .header-subtitle {
   text-align: center;
   //font-size: $h4-font-size;
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   font-size: $h5-font-size;
 }
 
 // Navbar
 
 .navbar-brand {
-  font-family: rockSalt;
+  font-family: rockSalt, sans-serif;
   text-shadow: 5px 3px 4px $dark;
 }
 
 .navbar {
-  font-family: raleway;
+  font-family: raleway, sans-serif;
 }
 
 // Carousel
 
 .carousel-title {
-  font-family: rockSalt;
+  font-family: rockSalt, sans-serif;
   text-shadow: 2px 5px 5px $dark;
 }
 
 .carousel-desc {
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   text-shadow: 4px 2px 3px $dark;
 }
 
@@ -108,14 +108,14 @@ body {
   color: $primary;
   text-align: center;
   text-decoration: underline;
-  font-family: specialElite;
+  font-family: specialElite, sans-serif;
 }
 
 .page-subheading {
   //color: $blue-800;
   color: $primary;
   text-align: center;
-  font-family: specialElite;
+  font-family: specialElite, sans-serif;
 }
 
 // Show info formatting - on home page list
@@ -130,7 +130,7 @@ body {
 
 .show-info-name {
   //font-family: specialElite;
-  font-family: specialElite;
+  font-family: specialElite, sans-serif;
   font-size: xx-large;
   //font-size: large;
   //font-weight: bold;
@@ -139,18 +139,18 @@ body {
 
 .show-info-role {
   font-size: larger;
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   color: $primary;
 }
 
 .show-info-creatives {
   font-style: italic;
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   //font-family: nothingYouCouldDo;
 }
 
 .show-info-readmore {
-  font-family: nothingYouCouldDo;
+  font-family: nothingYouCouldDo, sans-serif;
   font-size: smaller;
 }
 
@@ -195,12 +195,12 @@ body {
 
 // Blockquote attribution
 .blockquote {
-  font-family: nothingYouCouldDo;
+  font-family: nothingYouCouldDo, sans-serif;
   color: $primary;
 }
 
 .blockquote-footer {
-  font-family: rockSalt;
+  font-family: rockSalt, sans-serif;
   color: $primary;
 }
 

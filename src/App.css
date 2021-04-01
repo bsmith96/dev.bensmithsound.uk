@@ -10722,9 +10722,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.bi::before {
+  display: inline-block;
+  content: "";
+  vertical-align: -0.125em;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+
 body {
   background-color: #f8f9fa;
-  font-family: karla;
+  font-family: karla, sans-serif;
 }
 
 @font-face {
@@ -10758,31 +10767,31 @@ body {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  font-family: rockSalt;
+  font-family: rockSalt, sans-serif;
 }
 
 .header-subtitle {
   text-align: center;
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   font-size: 1.25rem;
 }
 
 .navbar-brand {
-  font-family: rockSalt;
+  font-family: rockSalt, sans-serif;
   text-shadow: 5px 3px 4px #001329;
 }
 
 .navbar {
-  font-family: raleway;
+  font-family: raleway, sans-serif;
 }
 
 .carousel-title {
-  font-family: rockSalt;
+  font-family: rockSalt, sans-serif;
   text-shadow: 2px 5px 5px #001329;
 }
 
 .carousel-desc {
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   text-shadow: 4px 2px 3px #001329;
 }
 
@@ -10790,13 +10799,13 @@ body {
   color: #00296B;
   text-align: center;
   text-decoration: underline;
-  font-family: specialElite;
+  font-family: specialElite, sans-serif;
 }
 
 .page-subheading {
   color: #00296B;
   text-align: center;
-  font-family: specialElite;
+  font-family: specialElite, sans-serif;
 }
 
 .show-info {
@@ -10807,24 +10816,24 @@ body {
 }
 
 .show-info-name {
-  font-family: specialElite;
+  font-family: specialElite, sans-serif;
   font-size: xx-large;
   color: #00296B;
 }
 
 .show-info-role {
   font-size: larger;
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   color: #00296B;
 }
 
 .show-info-creatives {
   font-style: italic;
-  font-family: raleway;
+  font-family: raleway, sans-serif;
 }
 
 .show-info-readmore {
-  font-family: nothingYouCouldDo;
+  font-family: nothingYouCouldDo, sans-serif;
   font-size: smaller;
 }
 
@@ -10858,12 +10867,12 @@ body {
 }
 
 .blockquote {
-  font-family: nothingYouCouldDo;
+  font-family: nothingYouCouldDo, sans-serif;
   color: #00296B;
 }
 
 .blockquote-footer {
-  font-family: rockSalt;
+  font-family: rockSalt, sans-serif;
   color: #00296B;
 }
 
@@ -10900,6 +10909,10 @@ body {
 
 .footer-image {
   -webkit-filter: drop-shadow(0rem 0.5rem 1rem rgba(0, 0, 0, 0.7));
+}
+
+.status {
+  transform: translate(0, 3rem);
 }
 
 /*# sourceMappingURL=App.css.map */
