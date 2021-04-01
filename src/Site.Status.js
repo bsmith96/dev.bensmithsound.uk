@@ -135,7 +135,7 @@ class Status extends React.Component {
         <div className="row justify-content-center">
           {this.setStatus() !== "." &&
             <div className="col-md-6 mt-4">
-              <p class="text-end mb-1"><span class="badge bg-secondary">{this.getDate()}</span></p>
+              <p className="text-end mb-1"><span className="badge bg-secondary">{this.getDate()}</span></p>
               <div className="alert alert-primary" role="alert">
                 <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html: this.setStatus() }}></text>
               </div>
@@ -153,7 +153,7 @@ class Status extends React.Component {
 /*<div className="position-fixed top-0 end-0 p-3 status" style={{zIndex:'5'}}>
   {this.setStatus() !== "." &&
   <div id="liveToast" className="toast fade-in-and-out" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-body">
+    <div className="toast-body">
       <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html:this.setStatus()}}></text>
     </div>
   </div>
@@ -167,7 +167,7 @@ class Status extends React.Component {
         <div className="row justify-content-center">
           {this.setStatus() !== "." &&
             <div className="col-md-6 mt-4">
-              <p class="text-end"><span class="badge bg-secondary">{this.getDate()}</span></p>
+              <p className="text-end"><span className="badge bg-secondary">{this.getDate()}</span></p>
               <div className="alert alert-primary fade show" role="alert">
                 <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html: this.setStatus() }}></text>
               </div>

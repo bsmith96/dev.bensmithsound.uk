@@ -6,7 +6,12 @@ function SiteFooter() {
     <div className="container-fluid mt-3 py-3 footer">
       <div className="row justify-content-end align-items-center">
         <div className="col-sm-6">
-          <p>You can contact me at <a href="mailto:ben@bensmithsound.uk" className="text-reset" target="_blank" rel="noreferrer">ben@bensmithsound.uk</a></p>
+          <p className="mb-0">
+            <strong>Ben Smith</strong> (He/him)
+          </p>
+          <p>
+            You can contact me at <a href="mailto:ben@bensmithsound.uk" className="text-reset" target="_blank" rel="noreferrer">ben@bensmithsound.uk</a>
+          </p>
         </div>
         <div className="col-sm-2">
           <a
