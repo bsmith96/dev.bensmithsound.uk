@@ -12,7 +12,7 @@ class Status extends React.Component {
   setGreeting() {
     var greetingOptions = [
       "Hi there!",
-      "Hey there!"
+      "Hello!"
     ]
 
     const now = new Date();

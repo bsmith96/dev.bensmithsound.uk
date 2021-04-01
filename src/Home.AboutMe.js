@@ -33,7 +33,7 @@ function AboutMe() {
               rel="noreferrer"
               className="text-reset"
             >Reaper</a> easier in a live theatre environment. I also learnt some simple web development for one-page sites, such as the one you're looking at right now!</p>
-          <p>While live theatre remains a struggle for many creatives and venues, I am also available for work on <strong>recordings</strong> and broadcast events. Whether it’s <strong>editing</strong> and cleaning up recordings from zoom, <strong>mixing</strong> a performance remotely or as a livestream, or a creative <strong>sound design</strong> for a digital production.</p>
+          <p>While live theatre remains a struggle for many creatives and venues, I am also available for work on <strong>recordings</strong> and broadcast events, whether it’s <strong>editing</strong> and cleaning up recordings from zoom, <strong>mixing</strong> a performance remotely or as a livestream, or a creative <strong>sound design</strong> for a digital production.</p>
         </div>
       </div>
     </div>
