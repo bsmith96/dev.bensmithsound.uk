@@ -420,6 +420,91 @@
     },
     {
       "id": 5,
+      "shown": false,
+      "poster": "19-07-peterrabbit.jpeg",
+      "altText": "Peter Rabbit poster",
+      "showName": "Where Is Peter Rabbit",
+      "role": "Sound Operator",
+      "venue": "Theatre Royal Haymarket",
+      "producer": "",
+      "director": "Directed by Sheila Carter",
+      "soundDesigner": "Sound Design by Sam Glossop",
+      "date": {
+        "preStart": "2019-07-01",
+        "fitupStart": "2019-07-01",
+        "techStart": "2019-07-01",
+        "runStart": "2019-07-01",
+        "runEnd": "2019-07-02"
+      },
+      "dateString": "Jul - Sep 2019",
+      "writers": [
+        {
+          "credit": "Based on the book by Beatrice Potter"
+        },
+        {
+          "credit": "Written by Sir Alan Ayckbourn"
+        },
+        {
+          "credit": "Music by Steven Edis"
+        }
+      ],
+      "collapseId": "peterRabbitDesc",
+      "descLead": "Where is Peter Rabbit™? hops onto London's West End stage again this summer after a sell-out run over the Easter holidays.",
+      "descRest": [
+        {
+          "text": "The highly-anticipated new run at the Theatre Royal Haymarket is expected to be the West End highlight of the summer school holidays this year. Featuring the talented voices of famed TV presenter and musician Myleene Klass as The Narrator and Griff Rhys Jones (LMTO's A Christmas Carol) as the much-loved Beatrix Potter characters, Where is Peter Rabbit™? is guaranteed to blow you away!"
+        },
+        {
+          "text": "Where is Peter Rabbit™? is a musical based on the beloved characters by 20th-century author Beatrix Potter, whose most famous children's book, The Tale of Peter Rabbit, was first published in 1902 and has managed to capture the imaginations of British children from generation to generation. Witness Potter's loving animals spring to life as gorgeously handcrafted puppets lifted straight from the pages of her self-illustrated books. In addition to the bouncy protagonist, theatre fans can look forward to Peter Rabbit's many friends, including Jemima Puddle Duck and the 'prickly' washerwoman Mrs. Tiggly-Winkle, as well as Peter Rabbit's enemy, the vicious Mr. McGregor, who pulls no punches in protecting his succulent lettuce garden from those 'pesky' hungry bunnies."
+        },
+        {
+          "text": "As an illustrator, conservationist and natural science, Beatrix Potter spent a lot of time sketching and painting flora, fauna, landscapes, and animals. Although she was born in an upper-class household, her access to education as a woman was limited and she was instead educated by governesses. Potter had numerous pets throughout her life and was a lover of both animals and nature, from which her numerous popular children's books were born. Her stories have been passed down by each generation for over a century and are now compiled into a spectacular West End musical!"
+        }
+      ],
+      "mainVideo": [
+        {
+          "width": 0
+        },
+        {
+          "height": 0
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "sideVideo": [
+        {
+          "width": 0
+        },
+        {
+          "height": 0
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "quotes": []
+    },
+    {
+      "id": 6,
       "shown": true,
       "poster": "19-11-theseason.jpeg",
       "altText": "The Season show poster",
@@ -509,7 +594,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "shown": true,
       "poster": "19-12-pippi.jpeg",
       "altText": "Pippi Longstocking show poster",
@@ -597,7 +682,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "shown": true,
       "poster": "20-01-jpgffs.jpeg",
       "altText": "Fashion Freak Show poster",
@@ -669,7 +754,7 @@
       "quotes": []
     },
     {
-      "id": 8,
+      "id": 9,
       "shown": true,
       "poster": "20-02-piratequeen.jpeg",
       "altText": "The Pirate Queen show poster",
@@ -757,7 +842,7 @@
       "quotes": []
     },
     {
-      "id": 9,
+      "id": 10,
       "shown": true,
       "poster": "21-03-babe.jpeg",
       "altText": "Babe show poster",
@@ -838,7 +923,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "shown": true,
       "poster": "21-04-whocares.jpeg",
       "altText": "Who Cares poster",
@@ -913,7 +998,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 12,
       "shown": true,
       "poster": "21-06-twelfthnight.jpeg",
       "altText": "Twelfth Night poster",
