@@ -3,7 +3,7 @@ import './App.css';
 function AboutMe() {
   return (
     <div className="container-fluid">
-      <h1 className="mt-5 page-heading">About Me</h1>
+      <h1 className="mt-4 page-heading">About Me</h1>
       <div className="row justify-content-center">
         <div className="col-lg-9">
           <p>I am a freelance theatre sound engineer based in London, working as a <strong>sound operator</strong> for both musicals and plays, including Touring and Regional productions, and in the West End.</p>

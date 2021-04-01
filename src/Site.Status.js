@@ -39,7 +39,6 @@ class Status extends React.Component {
 
   setStatus() {
     const today = new Date();
-    /*const today = new Date(Date.parse("2021-06-04"));*/
     var prodStatus = false;
     var status = "";
 
