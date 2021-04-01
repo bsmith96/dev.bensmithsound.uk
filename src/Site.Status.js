@@ -133,7 +133,7 @@ class Status extends React.Component {
       <div className="container-fluid">
         <div className="row justify-content-center">
           {this.setStatus() !== "." &&
-            <div className="col-md-6 mt-4">
+            <div className="col-md-6 mt-2">
               <p className="text-end mb-1"><span className="badge bg-secondary">{this.getDate()}</span></p>
               <div className="alert alert-primary" role="alert">
                 <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html: this.setStatus() }}></text>
