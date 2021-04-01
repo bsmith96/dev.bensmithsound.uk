@@ -8,7 +8,6 @@ const headshots = [HeadShot1, HeadShot2];
 var headshot = headshots[Math.floor(Math.random()*headshots.length)];
 
 /*  R E N D E R  E L E M E N T  */
-
 function AboutMe() {
   return (
     <div className="container-fluid">
