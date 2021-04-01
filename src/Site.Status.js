@@ -124,7 +124,7 @@ class Status extends React.Component {
     const todayYear = today.getFullYear();
     const todayMonth = months[today.getMonth()];
     const todayDate = today.getDate();
-    const todayDay = days[today.getDay()];
+    const todayDay = days[today.getDay()-1];
 
     return todayDay + ", " + todayDate + " " + todayMonth + " " + todayYear;
   }
