@@ -1,10 +1,22 @@
 import './App.css';
+import HeadShot1 from './_images/BenSmith_PQ_2_Radio.jpg';
+import HeadShot2 from './_images/BenSmith_PQ_1.jpg';
+
+/*  S E L E C T  P H O T O  R A N D O M L Y  */
+const headshots = [HeadShot1, HeadShot2];
+
+var headshot = headshots[Math.floor(Math.random()*headshots.length)];
+
+/*  R E N D E R  E L E M E N T  */
 
 function AboutMe() {
   return (
     <div className="container-fluid">
       <h1 className="mt-4 page-heading">About Me</h1>
-      <div className="row justify-content-center">
+      <div className="row gy-3 mt-2 align-items-center">
+        <div className="col-lg-3 d-none d-lg-block">
+          <img src={headshot} className="img-fluid rounded shadow"></img>
+        </div>
         <div className="col-lg-9">
           <h4 className="page-subheading text-start">Ben Smith<small className="text-muted"> (He/him)</small></h4>
           <p>I am a freelance theatre sound engineer based in SE London, working as a <strong>sound operator</strong> for musicals and plays: I have worked on Regional productions, National and International Tours, and in the West End. I am confident <strong>mixing musicals</strong>, including working with actor-musicians, click-tracks, and in large venues, as well as looking after backstage as a <strong>Sound No. 2</strong>.</p>
