@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b1ec09aa.chunk.css",
-    "main.js": "/static/js/main.b6a3e5d8.chunk.js",
-    "main.js.map": "/static/js/main.b6a3e5d8.chunk.js.map",
+    "main.js": "/static/js/main.7e19473c.chunk.js",
+    "main.js.map": "/static/js/main.7e19473c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9eb22727.js",
     "runtime-main.js.map": "/static/js/runtime-main.9eb22727.js.map",
     "static/js/2.e0571994.chunk.js": "/static/js/2.e0571994.chunk.js",
@@ -15,12 +15,14 @@
     "static/media/19-11-theseason-1-165.510b833f.jpg": "/static/media/19-11-theseason-1-165.510b833f.jpg",
     "static/media/19-11-theseason-2-165.2f6c86d3.jpg": "/static/media/19-11-theseason-2-165.2f6c86d3.jpg",
     "static/media/20-02-piratequeen-1-165.57832248.jpg": "/static/media/20-02-piratequeen-1-165.57832248.jpg",
+    "static/media/BenSmith_PQ_1.5e8e3236.jpg": "/static/media/BenSmith_PQ_1.5e8e3236.jpg",
+    "static/media/BenSmith_PQ_2_Radio.4686dd01.jpg": "/static/media/BenSmith_PQ_2_Radio.4686dd01.jpg",
     "static/media/index.css": "/static/media/SpecialElite-Regular.9dc7a59a.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.9eb22727.js",
     "static/js/2.e0571994.chunk.js",
     "static/css/main.b1ec09aa.chunk.css",
-    "static/js/main.b6a3e5d8.chunk.js"
+    "static/js/main.7e19473c.chunk.js"
   ]
 }
