@@ -1,3 +1,31 @@
+# Ben Smith Sound - website
+
+This project is the source code for [www.bensmithsound.uk](https://www.bensmithsound.uk). 
+
+This project was started using HTML and CSS with *Bootstrap v5.0.0beta2* CSS and scripts, along with *Sass* to alter the CSS.
+
+There was a temporary incarnation using *pure javascript* and *jQuery* to adjust the rendering of shadows dynamically, and to generate new HTML blocks for new productions.
+
+Now, the site has been adapted to also work with *React*, allowing the list of productions to be automatically generated based on information provided. It will even compare the date of the machine to the date of productions, so I can input show information in advance, and they will appear at the correct time.
+
+Total dependencies:
+- Bootstrap v5
+- Sass
+- React
+- react-iframe (for video embedding)
+- gh-pages (for deployment)
+- Node.js
+
+## Important terminal commands
+
+To preview the site while editing, run `npm start`
+
+To deploy the site to github-pages (please update the version number in *package.json* first), run `npm run deploy`
+
+If you edit *custom.scss* and want to push the changes to the CSS file used for the site, run `sass ./src/_scss/custom.scss ./src/App.css`
+
+------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
