@@ -10811,6 +10811,7 @@ body {
   color: #031633;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
+  border: 0.05rem solid #00296B;
 }
 
 .show-info-name {
@@ -10916,6 +10917,7 @@ body {
 }
 
 .footer-image {
+  filter: drop-shadow(0rem 0.5rem 1rem rgba(0, 0, 0, 0.7));
   -webkit-filter: drop-shadow(0rem 0.5rem 1rem rgba(0, 0, 0, 0.7));
 }
 

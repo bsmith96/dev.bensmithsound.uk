@@ -3,6 +3,8 @@ import './App.css';
 import './Site.Status.css';
 import {prods} from './Production.list.json';
 
+const today = new Date();
+
 class Status extends React.Component {
   constructor(prop) {
     super(prop);
@@ -38,7 +40,6 @@ class Status extends React.Component {
   }
 
   setStatus() {
-    const today = new Date();
     var prodStatus = false;
     var status = "";
 
@@ -94,7 +95,6 @@ class Status extends React.Component {
   }
 
   getDate() {
-    const today = new Date();
     const months = [
       'January',
       'February',

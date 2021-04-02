@@ -30,7 +30,7 @@ class Productions extends React.Component {
         if( this.checkDate(prod.date.runStart) && prod.shown ) {
         return (
           <div className="container-fluid">
-          <div className="container-fluid px-4 mt-3 show-info">
+          <div className="container-fluid px-4 mt-4 show-info">
             <div className="row gx-5 align-items-center position-relative">
 
               {/*  L E F T  C O L U M N  */}
