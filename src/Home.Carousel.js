@@ -10,11 +10,11 @@ const subhead1 = "The London Coliseum. February 2020"
 
 const alt2 = "Dougal in The Season";
 const head2 = "The Season";
-const subhead2 = "Royal & Derngate. December 2019. Photo © Pamela Raith Photography";
+const subhead2 = "Royal & Derngate. November 2019. Photo © Pamela Raith Photography";
 
 const alt3 = "Dougal and Robin in The Season";
 const head3 = "The Season";
-const subhead3 = "Royal & Derngate. December 2019. Photo © Pamela Raith Photography";
+const subhead3 = "Royal & Derngate. November 2019. Photo © Pamela Raith Photography";
 
 function Carousel() {
   return (
