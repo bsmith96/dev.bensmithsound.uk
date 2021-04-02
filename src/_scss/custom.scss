@@ -5,13 +5,16 @@
 // sass ./src/_scss/custom.scss ./src/App.css
 ///////////////  T E R M I N A L  ///////////////
 
-// Theme Colors
+
+///////////////  T H E M E  C O L O U R S  ///////////////
+
 $primary: #00296B;
 $secondary: #C2D9FF;
 //$light: #FFD166;
 $dark: #001329;
 
-// Bootstrap icons
+
+///////////////  B O O T S T R A P  I C O N S  ///////////////
 
 .bi::before {
   display: inline-block;
@@ -22,13 +25,15 @@ $dark: #001329;
   background-size: 1rem 1rem;
 }
 
-// All pages background color
+
+///////////////  B O D Y  C S S  N O T E S  ///////////////
 body {
   background-color: $light;
   font-family: karla, sans-serif;
 }
 
-// Add font face
+
+///////////////  I M P O R T  F O N T S  ///////////////
 @font-face {
   font-family: rockSalt;
   src: url("./_fonts/Rock_Salt/RockSalt-Regular.ttf");
@@ -54,7 +59,21 @@ body {
   src: url("./_fonts/Karla/Karla-VariableFont_wght.ttf");
 }
 
-// Header formatting
+
+///////////////  N A V B A R  ///////////////
+
+.navbar-brand {
+  font-family: rockSalt, sans-serif;
+  text-shadow: 5px 3px 4px $dark;
+}
+
+.navbar {
+  font-family: raleway, sans-serif;
+}
+
+
+///////////////  S I T E  H E A D E R   ///////////////
+
 .header {
   //background-color: $blue-800;
   background-color: $primary;
@@ -79,18 +98,8 @@ body {
   font-size: $h5-font-size;
 }
 
-// Navbar
 
-.navbar-brand {
-  font-family: rockSalt, sans-serif;
-  text-shadow: 5px 3px 4px $dark;
-}
-
-.navbar {
-  font-family: raleway, sans-serif;
-}
-
-// Carousel
+///////////////  P H O T O  C A R O U S E L  ///////////////
 
 .carousel-title {
   font-family: rockSalt, sans-serif;
@@ -102,7 +111,9 @@ body {
   text-shadow: 4px 2px 3px $dark;
 }
 
-// Heading formatting
+
+///////////////  P A G E  H E A D I N G S  ///////////////
+
 .page-heading {
   //color: $blue-900;
   color: $primary;
@@ -118,21 +129,30 @@ body {
   font-family: specialElite, sans-serif;
 }
 
-// Show info formatting - on home page list
+
+///////////////  S H O W  I N F O R M A T I O N  ///////////////
+
+/*  OLD VERSION
 .show-info {
-  //align-items: center;
-  //background-color: $blue-200;
   background-color: $secondary;
   background-image: var(--bs-gradient);
   color: $blue-900;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) inset;
+}*/
+
+.show-info {
+  background-color: $secondary;
+  //background-color: $blue-200;
+  //background-image: var(--bs-gradient);
+  color: $blue-900;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
 }
 
 .show-info-name {
   //font-family: specialElite;
   font-family: specialElite, sans-serif;
   font-size: xx-large;
-  //font-size: large;
   //font-weight: bold;
   color: $primary;
 }
@@ -154,21 +174,26 @@ body {
   font-size: smaller;
 }
 
-//.show-info-desc {
-//  text-align: justify;
-//  border-right: 1px solid $primary;
-//}
-
 .show-info-date {
   text-align: right;
   vertical-align: text-top;
 }
 
-//.show-info-sidebar {
-//  border-left: 1px solid $primary;
-//}
+/*!
+ *.show-info-desc {
+ *  text-align: justify;
+ *  border-right: 1px solid $primary;
+ */
 
-// Show info formatting - on show specific pages
+/*.show-info-sidebar {
+ *  border-left: 1px solid $primary;
+ *}
+ */
+
+
+///////////////  S H O W  I N F O  -  O N  A  P A G E  ///////////////
+//////////////////////////////  unused  //////////////////////////////
+
 .page-info {
   background-color: $blue-200;
   background-image: var(--bs-gradient);
@@ -193,7 +218,9 @@ body {
   vertical-align: text-top;
 }
 
-// Blockquote attribution
+
+///////////////  B L O C K Q U O T E S  ///////////////
+
 .blockquote {
   font-family: nothingYouCouldDo, sans-serif;
   color: $primary;
@@ -201,15 +228,18 @@ body {
 
 .blockquote-footer {
   font-family: rockSalt, sans-serif;
-  color: $primary;
+  color: $dark;
 }
 
-// Sticky note appearance
+
+///////////////  S T I C K Y  N O T E S  ///////////////
+
 .sticky {
-  background: $light;
+  background-color: $light;
   display: block;
   padding: 1em;
   margin: 2em;
+  border-radius: 0.25rem;
 }
 
 .sticky-a {
@@ -224,14 +254,16 @@ body {
   box-shadow: 0.017rem 1.000rem 1rem rgba(0,0,0,0.15);
 }
 
-// Embedded videos
+
+///////////////  E M B E D D E D  V I D E O S  ///////////////
 
 .embedded-video {
   box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.3);
   border-radius: 0.25rem;
 }
 
-// Footer
+
+///////////////  P A G E  F O O T E R  ///////////////
 
 .footer {
   background-color: $gray-400;
@@ -244,12 +276,16 @@ body {
   -webkit-filter: drop-shadow(0rem 0.5rem 1rem rgba(0,0,0,0.7));
 }
 
-// Status
+
+///////////////  S T A T U S  ///////////////
 
 .status {
   transform: translate(0,3rem);
 }
 
-// Variables
+
+///////////////  V A R I A B L E S  ///////////////
+
 $enable-shadows: true;
 $enable-gradients: true;
+$enable-rounded: true;

@@ -10756,6 +10756,15 @@ body {
   font-family: karla;
   src: url("./_fonts/Karla/Karla-VariableFont_wght.ttf");
 }
+.navbar-brand {
+  font-family: rockSalt, sans-serif;
+  text-shadow: 5px 3px 4px #001329;
+}
+
+.navbar {
+  font-family: raleway, sans-serif;
+}
+
 .header {
   background-color: #00296B;
   color: #C2D9FF;
@@ -10774,15 +10783,6 @@ body {
   text-align: center;
   font-family: raleway, sans-serif;
   font-size: 1.25rem;
-}
-
-.navbar-brand {
-  font-family: rockSalt, sans-serif;
-  text-shadow: 5px 3px 4px #001329;
-}
-
-.navbar {
-  font-family: raleway, sans-serif;
 }
 
 .carousel-title {
@@ -10808,11 +10808,18 @@ body {
   font-family: specialElite, sans-serif;
 }
 
+/*  OLD VERSION
+.show-info {
+  background-color: $secondary;
+  background-image: var(--bs-gradient);
+  color: $blue-900;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) inset;
+}*/
 .show-info {
   background-color: #C2D9FF;
-  background-image: var(--bs-gradient);
   color: #031633;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
 }
 
 .show-info-name {
@@ -10842,6 +10849,15 @@ body {
   vertical-align: text-top;
 }
 
+/*!
+ *.show-info-desc {
+ *  text-align: justify;
+ *  border-right: 1px solid $primary;
+ */
+/*.show-info-sidebar {
+ *  border-left: 1px solid $primary;
+ *}
+ */
 .page-info {
   background-color: #9ec5fe;
   background-image: var(--bs-gradient);
@@ -10873,14 +10889,15 @@ body {
 
 .blockquote-footer {
   font-family: rockSalt, sans-serif;
-  color: #00296B;
+  color: #001329;
 }
 
 .sticky {
-  background: #f8f9fa;
+  background-color: #f8f9fa;
   display: block;
   padding: 1em;
   margin: 2em;
+  border-radius: 0.25rem;
 }
 
 .sticky-a {

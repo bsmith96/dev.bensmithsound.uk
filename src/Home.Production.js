@@ -29,6 +29,7 @@ class Productions extends React.Component {
         {prods.reverse().map(prod => {
         if( this.checkDate(prod.date.runStart) && prod.shown ) {
         return (
+          <div className="container-fluid">
           <div className="container-fluid px-4 mt-3 show-info">
             <div className="row gx-5 align-items-center position-relative">
 
@@ -168,6 +169,7 @@ class Productions extends React.Component {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         )}})}
       </div>
