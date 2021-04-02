@@ -8,7 +8,7 @@ function Navbar() {
           className="navbar-brand"
           href="#"
         >
-          <i className="bi-soundwave"></i> Ben Smith Sound
+          <i className="bi-soundwave" /> Ben Smith Sound
         </a>
         <button
           className="navbar-toggler"
