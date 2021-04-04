@@ -111,19 +111,19 @@ class Status extends React.Component {
     ]
 
     const days = [
+      'Sunday',
       'Monday',
       'Tuesday',
       'Wednesday',
       'Thursday',
       'Friday',
-      'Saturday',
-      'Sunday'
+      'Saturday'
     ]
 
     const todayYear = today.getFullYear();
     const todayMonth = months[today.getMonth()];
     const todayDate = today.getDate();
-    const todayDay = days[today.getDay()-1];
+    const todayDay = days[today.getDay()];
 
     return todayDay + ", " + todayDate + " " + todayMonth + " " + todayYear;
   }
