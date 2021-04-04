@@ -171,7 +171,9 @@ class Productions extends React.Component {
             </div>
           </div>
           </div>
-        )}})}
+        )} else {
+          return(null)
+        }})}
       </div>
     );
   }

@@ -14,7 +14,7 @@ function AboutMe() {
       <h1 className="mt-1 page-heading">About Me</h1>
       <div className="row gy-3 mt-2 align-items-center">
         <div className="col-lg-3 d-none d-lg-block">
-          <img src={headshot} className="img-fluid rounded shadow"></img>
+          <img src={headshot} className="img-fluid rounded shadow" alt="Ben Smith"></img>
         </div>
         <div className="col-lg-9">
           <h4 className="page-subheading text-start">Ben Smith<small className="text-muted"> (He/him)</small></h4>

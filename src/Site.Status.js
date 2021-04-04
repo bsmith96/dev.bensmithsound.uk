@@ -89,6 +89,8 @@ class Status extends React.Component {
         }
       };
 
+      return(status);
+
     })
 
     return(status + ".");

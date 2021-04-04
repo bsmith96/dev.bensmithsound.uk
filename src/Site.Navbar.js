@@ -6,7 +6,7 @@ function Navbar() {
       <div className="container-fluid">
         <a 
           className="navbar-brand"
-          href="#"
+          href="/"
         >
           <i className="bi-soundwave" /> Ben Smith Sound
         </a>
@@ -23,7 +23,7 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <a className="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="mailto:ben@bensmithsound.uk" target="_blank" rel="noreferrer">Email Me</a>
@@ -32,7 +32,7 @@ function Navbar() {
               <a className="nav-link" href="files/Ben_Smith_Sound_CV.pdf" target="_blank" rel="noreferrer">Download my CV</a>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Useful Resources
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
