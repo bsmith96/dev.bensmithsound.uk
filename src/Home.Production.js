@@ -81,7 +81,7 @@ class Entry extends React.Component {
                   className="stretched-link text-decoration-none"
                   onClick={ this.handleClick }
                 >
-                  <i className={this.state.collapsed ? 'bi-caret-down-fill' : 'bi-caret-up-fill'} /> { this.state.message }
+                  <small><i className={this.state.collapsed ? 'bi-caret-down-fill' : 'bi-caret-up-fill'} /></small> { this.state.message }
                 </a>
               </p>
             </div>
@@ -207,8 +207,6 @@ class Productions extends React.Component {
       collapsed: true,
       message: "Read more..."
     };
-
-    this.handleClick = this.handleClick.bind(this);
   }
 
   checkDate(i) {
@@ -216,34 +214,6 @@ class Productions extends React.Component {
     var runStart = new Date(Date.parse(i));
     var hasStarted = runStart <= currentDate;
     return(hasStarted);
-  }
-
-  handleClick(e) {
-    const readMore = "Read more...";
-    const readLess = "Read less...";
-
-    /*e.setState({message: "TEST"});*/
-
-    /*if (e.state.collapsed === true) {
-      e.setState({message: readLess});
-    } else {
-      e.setState({message: readMore});
-    };*/
-
-    if (this.state.collapsed) {
-      this.setState(state => ({
-        message: readMore
-      }));
-    } else {
-      this.setState(state => ({
-        message: readMore
-      }));
-    };
-
-    this.setState(state => ({
-      collapsed: !state.collapsed
-    }));
-
   }
 
   render() {
