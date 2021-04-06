@@ -3,9 +3,6 @@ import './App.css';
 import Iframe from 'react-iframe';
 import {prods} from './Production.list.json';
 
-
-var xhr;
-
 class Entry extends React.Component {
   constructor(props) {
     super(props);
@@ -211,30 +208,6 @@ class Productions extends React.Component {
       collapsed: true,
       message: "Read more..."
     };
-    this.processRequest = this.processRequest.bind(this);
-  }
-
-  componentDidMount() {
-    xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://raw.githubusercontent.com/bsmith96/www.bensmithsound.uk/master/src/Production.list.json", true);
-    xhr.send();
-  
-    xhr.addEventListener("readystatechange", this.processRequest, false);
-  }
-
-  processRequest() {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      var theResponse = JSON.parse(xhr.responseText);
-      console.log("OLD");
-      console.log(this.state.productions);
-      console.log("NEW");
-      console.log(theResponse.prods);
-
-      this.setState({
-        productions: theResponse.prods
-      });
-      console.log(this.state.productions);
-    }
   }
 
   checkDate(i) {
@@ -245,7 +218,6 @@ class Productions extends React.Component {
   }
 
   render() {
-    /*var prods = this.state.productions;*/
     return (
       <div>
         {/*  H E A D I N G  */}

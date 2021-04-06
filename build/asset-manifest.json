@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.0d783aa5.chunk.css",
-    "main.js": "/static/js/main.b3b9baf8.chunk.js",
-    "main.js.map": "/static/js/main.b3b9baf8.chunk.js.map",
+    "main.js": "/static/js/main.7dbb5884.chunk.js",
+    "main.js.map": "/static/js/main.7dbb5884.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.94ba75fb.js",
     "runtime-main.js.map": "/static/js/runtime-main.94ba75fb.js.map",
-    "static/js/2.cec1abb8.chunk.js": "/static/js/2.cec1abb8.chunk.js",
-    "static/js/2.cec1abb8.chunk.js.map": "/static/js/2.cec1abb8.chunk.js.map",
+    "static/js/2.8590679b.chunk.js": "/static/js/2.8590679b.chunk.js",
+    "static/js/2.8590679b.chunk.js.map": "/static/js/2.8590679b.chunk.js.map",
     "static/js/3.bc6143d5.chunk.js": "/static/js/3.bc6143d5.chunk.js",
     "static/js/3.bc6143d5.chunk.js.map": "/static/js/3.bc6143d5.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.0d783aa5.chunk.css.map": "/static/css/main.0d783aa5.chunk.css.map",
-    "static/js/2.cec1abb8.chunk.js.LICENSE.txt": "/static/js/2.cec1abb8.chunk.js.LICENSE.txt",
+    "static/js/2.8590679b.chunk.js.LICENSE.txt": "/static/js/2.8590679b.chunk.js.LICENSE.txt",
     "static/media/19-11-theseason-1-165.510b833f.jpg": "/static/media/19-11-theseason-1-165.510b833f.jpg",
     "static/media/19-11-theseason-2-165.2f6c86d3.jpg": "/static/media/19-11-theseason-2-165.2f6c86d3.jpg",
     "static/media/20-02-piratequeen-1-165.57832248.jpg": "/static/media/20-02-piratequeen-1-165.57832248.jpg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.94ba75fb.js",
-    "static/js/2.cec1abb8.chunk.js",
+    "static/js/2.8590679b.chunk.js",
     "static/css/main.0d783aa5.chunk.css",
-    "static/js/main.b3b9baf8.chunk.js"
+    "static/js/main.7dbb5884.chunk.js"
   ]
 }
