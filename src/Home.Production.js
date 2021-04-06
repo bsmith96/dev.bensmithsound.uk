@@ -79,7 +79,7 @@ class Entry extends React.Component {
                   role="button"
                   aria-expanded="false"
                   aria-controls={prod.collapseId}
-                  className="stretched-link text-decoration-none"
+                  className="stretched-link text-decoration-none text-reset"
                   onClick={ this.handleClick }
                 >
                   <small><i className={this.state.collapsed ? 'bi-caret-down-fill' : 'bi-caret-up-fill'} /></small> { this.state.message }
