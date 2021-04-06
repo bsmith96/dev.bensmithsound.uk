@@ -3,6 +3,9 @@ import './App.css';
 import Iframe from 'react-iframe';
 import {prods} from './Production.list.json';
 
+
+var xhr;
+
 class Entry extends React.Component {
   constructor(props) {
     super(props);
@@ -48,8 +51,9 @@ class Entry extends React.Component {
 
   }
   
+  
   render() {
-    const prod = this.state.prod;
+    const prod = this.props;
     return(
       <div className="container-fluid">
         <div className="container-fluid px-4 mt-4 show-info">
@@ -200,13 +204,37 @@ class Entry extends React.Component {
 
 
 class Productions extends React.Component {
-  constructor(prop) {
-    super(prop);
+  constructor(props) {
+    super(props);
     this.state = {
-      something: prods,
+      productions: prods,
       collapsed: true,
       message: "Read more..."
     };
+    this.processRequest = this.processRequest.bind(this);
+  }
+
+  componentDidMount() {
+    xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://raw.githubusercontent.com/bsmith96/www.bensmithsound.uk/master/src/Production.list.json", true);
+    xhr.send();
+  
+    xhr.addEventListener("readystatechange", this.processRequest, false);
+  }
+
+  processRequest() {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      var theResponse = JSON.parse(xhr.responseText);
+      console.log("OLD");
+      console.log(this.state.productions);
+      console.log("NEW");
+      console.log(theResponse.prods);
+
+      this.setState({
+        productions: theResponse.prods
+      });
+      console.log(this.state.productions);
+    }
   }
 
   checkDate(i) {
@@ -217,14 +245,14 @@ class Productions extends React.Component {
   }
 
   render() {
-    const prods = this.state.something;
+    /*var prods = this.state.productions;*/
     return (
       <div>
         {/*  H E A D I N G  */}
         <h1 className="mt-5 page-heading">Recent Projects</h1>
 
         {/*  L O O P  T H R O U G H  P R O D U C T I O N S  */}
-        {prods.reverse().map(prod => {
+        {this.state.productions.reverse().map(prod => {
         if( this.checkDate(prod.date.runStart) && prod.shown ) {
         return (
           <Entry
