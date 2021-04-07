@@ -210,6 +210,7 @@ class Productions extends React.Component {
       collapsed: true,
       message: "Read more..."
     };
+    this.handleChange = this.handleChange.bind(this);
   }
 
   checkDate(i) {
@@ -222,15 +223,19 @@ class Productions extends React.Component {
   filterProds(input) {
     var filtered = [];
     this.state.productions.filter( prod => {
-      if (prod.role === input) {
-        console.log(prod);
+      var role = ""
+      if (prod.role === "Sound Operator") {
+        role = "Sound No. 1";
+      } else {
+        role = prod.role;
+      }
+      if (role.includes(input)) {
         filtered.push(prod);
       } else if (input === "") {
         filtered.push(prod);
       };
       return filtered;
     });
-    console.log(filtered);
     this.setState({filteredProds: filtered});
     return filtered;
   }
@@ -239,11 +244,31 @@ class Productions extends React.Component {
     this.filterProds("");
   }
 
+  handleChange(e) {
+    this.filterProds(e.target.value);
+  }
+
   render() {
     return (
       <div>
-        {/*  H E A D I N G  */}
-        <h1 className="mt-5 page-heading">Recent Projects</h1>
+        <div className="container-fluid">
+          <div className="row justify-content-end">
+            <div className="col-md-6">
+              {/*  H E A D I N G  */}
+              <h1 className="mt-5 page-heading">Recent Projects</h1>
+            </div>
+            <div className="col-md-3 d-none d-sm-block">
+              <select className="mt-5 form-select" aria-label="Filter productions" onChange={this.handleChange}>
+                <option defaultValue value="">--- Filter productions by role ---</option>
+                <option value="Sound No. 1">Sound No. 1</option>
+                <option value="Sound No. 2">Sound No. 2</option>
+                <option value="Associate Sound Designer">Associate Sound Designer</option>
+                <option value="Sound Designer">Sound Designer</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
 
         {/*  L O O P  T H R O U G H  P R O D U C T I O N S  */}
         {this.state.filteredProds.reverse().map(prod => {
