@@ -210,7 +210,8 @@ class Productions extends React.Component {
       collapsed: true,
       message: "Read more..."
     };
-    this.handleChange = this.handleChange.bind(this);
+    this.handleChangeRole = this.handleChangeRole.bind(this);
+    this.handleChangeSearch = this.handleChangeSearch.bind(this);
   }
 
   checkDate(i) {
@@ -220,7 +221,7 @@ class Productions extends React.Component {
     return(hasStarted);
   }
 
-  filterProds(input) {
+  filterProdsByRole(input) {
     var filtered = [];
     this.state.productions.filter( prod => {
       var role = ""
@@ -240,12 +241,35 @@ class Productions extends React.Component {
     return filtered;
   }
 
-  componentDidMount() {
-    this.filterProds("");
+  filterProdsBySearch(input) {
+    var filtered = [];
+    this.state.productions.filter( prod => {
+      if (
+        prod.role.includes(input) ||
+        prod.showName.includes(input) ||
+        prod.descLead.includes(input) ||
+        prod.descRest.includes(input)
+      ) {
+        filtered.push(prod);
+      } else if (input === "") {
+        filtered.push(prod);
+      }
+      return filtered
+    });
+    this.setState({filteredProds: filtered});
+    return filtered
   }
 
-  handleChange(e) {
-    this.filterProds(e.target.value);
+  componentDidMount() {
+    this.filterProdsByRole("");
+  }
+
+  handleChangeRole(e) {
+    this.filterProdsByRole(e.target.value);
+  }
+
+  handleChangeSearch(e) {
+    this.filterProdsBySearch(e.target.value);
   }
 
   render() {
@@ -253,12 +277,15 @@ class Productions extends React.Component {
       <div>
         <div className="container-fluid">
           <div className="row justify-content-end">
+            <div className="col-md-3">
+              <input className="mt-5 form-control" onChange={this.handleChangeSearch}></input>
+            </div>
             <div className="col-md-6">
               {/*  H E A D I N G  */}
               <h1 className="mt-5 page-heading">Recent Projects</h1>
             </div>
             <div className="col-md-3 d-none d-sm-block">
-              <select className="mt-5 form-select" aria-label="Filter productions" onChange={this.handleChange}>
+              <select className="mt-5 form-select" aria-label="Filter productions" onChange={this.handleChangeRole}>
                 <option defaultValue value="">--- Filter productions by role ---</option>
                 <option value="Sound No. 1">Sound No. 1</option>
                 <option value="Sound No. 2">Sound No. 2</option>
