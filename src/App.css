@@ -10815,6 +10815,7 @@ body {
 
 .show-info-name {
   font-family: specialElite, sans-serif;
+  font-weight: 600;
   font-size: xx-large;
   color: #00296B;
 }
