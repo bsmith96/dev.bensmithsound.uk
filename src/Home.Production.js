@@ -218,14 +218,28 @@ class Productions extends React.Component {
     return(hasStarted);
   }
 
+  filterEntries(input) {
+    var filteredProds = {};
+    this.state.productions.filter( prod => {
+      if (prod.role === input) {
+        console.log(prod);
+        filteredProds = Object.assign(prod, filteredProds);
+      };
+      return filteredProds;
+    });
+    return filteredProds;
+  }
+
   render() {
+    var temporaryVar = this.filterEntries("Sound No. 1");
+    console.log(temporaryVar);
     return (
       <div>
         {/*  H E A D I N G  */}
         <h1 className="mt-5 page-heading">Recent Projects</h1>
 
         {/*  L O O P  T H R O U G H  P R O D U C T I O N S  */}
-        {this.state.productions.reverse().map(prod => {
+        {temporaryVar.reverse().map(prod => {
         if( this.checkDate(prod.date.runStart) && prod.shown ) {
         return (
           <Entry
