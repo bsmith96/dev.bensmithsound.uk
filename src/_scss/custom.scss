@@ -258,11 +258,12 @@ body {
   font-style: italic;
   text-align: right;
   background-image: var(--bs-gradient);
+  vertical-align: middle;
 }
 
 .footer-image {
   filter: drop-shadow(0rem 0.5rem 1rem rgba(0,0,0,0.7));
-  -webkit-filter: drop-shadow(0rem 0.5rem 1rem rgba(0,0,0,0.7));
+  -webkit-filter: drop-shadow(0rem 0.5rem 1rem rgba(0,0,0,0.45));
 }
 
 
