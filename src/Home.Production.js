@@ -206,6 +206,7 @@ class Productions extends React.Component {
     super(props);
     this.state = {
       productions: prods,
+      filteredProds: [],
       collapsed: true,
       message: "Read more..."
     };
@@ -218,28 +219,34 @@ class Productions extends React.Component {
     return(hasStarted);
   }
 
-  filterEntries(input) {
-    var filteredProds = {};
+  filterProds(input) {
+    var filtered = [];
     this.state.productions.filter( prod => {
       if (prod.role === input) {
         console.log(prod);
-        filteredProds = Object.assign(prod, filteredProds);
+        filtered.push(prod);
+      } else if (input === "") {
+        filtered.push(prod);
       };
-      return filteredProds;
+      return filtered;
     });
-    return filteredProds;
+    console.log(filtered);
+    this.setState({filteredProds: filtered});
+    return filtered;
+  }
+
+  componentDidMount() {
+    this.filterProds("");
   }
 
   render() {
-    var temporaryVar = this.filterEntries("Sound No. 1");
-    console.log(temporaryVar);
     return (
       <div>
         {/*  H E A D I N G  */}
         <h1 className="mt-5 page-heading">Recent Projects</h1>
 
         {/*  L O O P  T H R O U G H  P R O D U C T I O N S  */}
-        {temporaryVar.reverse().map(prod => {
+        {this.state.filteredProds.reverse().map(prod => {
         if( this.checkDate(prod.date.runStart) && prod.shown ) {
         return (
           <Entry
