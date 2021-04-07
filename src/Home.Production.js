@@ -136,7 +136,7 @@ class Entry extends React.Component {
                             title={video.title}
                             frameborder={video.frameborder}
                             allow={video.allow}
-                            allowfullscreen
+                            allowFullScreen
                             className="embedded-video"
                           />
                         </div>
@@ -185,7 +185,8 @@ class Entry extends React.Component {
                         title={video.title}
                         frameborder={video.frameborder}
                         allow={video.allow}
-                        allowfullscreen className="embedded-video"
+                        allowFullScreen 
+                        className="embedded-video"
                       />
                     </div> }
                 </div>
