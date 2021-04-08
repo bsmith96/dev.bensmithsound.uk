@@ -98,7 +98,7 @@ class Entry extends React.Component {
             className="collapse"
             id={prod.collapseId}
           >
-            <div className="row justify-content-center pt-3">
+            <div className="row gx-5 justify-content-center pt-3">
               
               {/*  L E F T  C O L U M N  ( F O R  S P A C I N G )  */}
               <div className="col-md-3"></div>
