@@ -2,7 +2,7 @@ import './App.css';
 
 function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style={{zIndex:'4'}}>
       <div className="container-fluid">
         <a 
           className="navbar-brand"

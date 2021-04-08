@@ -206,9 +206,12 @@ class Productions extends React.Component {
     super(props);
     this.state = {
       productions: prods,
+      filteredProds: [],
       collapsed: true,
       message: "Read more..."
     };
+    this.handleChangeRole = this.handleChangeRole.bind(this);
+    this.handleChangeSearch = this.handleChangeSearch.bind(this);
   }
 
   checkDate(i) {
@@ -218,14 +221,91 @@ class Productions extends React.Component {
     return(hasStarted);
   }
 
+  filterProdsByRole(input) {
+    var filtered = [];
+    this.state.productions.filter( prod => {
+      var role = ""
+      if (prod.role === "Sound Operator") {
+        role = "Sound No. 1";
+      } else {
+        role = prod.role;
+      }
+      if (role.includes(input)) {
+        filtered.push(prod);
+      } else if (input === "") {
+        filtered.push(prod);
+      };
+      return filtered;
+    });
+    this.setState({filteredProds: filtered});
+    return filtered;
+  }
+
+  filterProdsBySearch(input) {
+    var filtered = [];
+    this.state.productions.filter( prod => {
+      var writersStr = "";
+      var descStr = "";
+      prod.writers.map(writers => {
+        writersStr = writersStr + writers.credit;
+        return null;
+      });
+      prod.descRest.map(paragraph => {
+        descStr = descStr + paragraph.text;
+        return null;
+      });
+
+      if (
+        prod.role.toLowerCase().includes(input.toLowerCase()) ||
+        prod.showName.toLowerCase().includes(input.toLowerCase()) ||
+        prod.descLead.toLowerCase().includes(input.toLowerCase()) ||
+        prod.director.toLowerCase().includes(input.toLowerCase()) ||
+        prod.soundDesigner.toLowerCase().includes(input.toLowerCase()) ||
+        prod.venue.toLowerCase().includes(input.toLowerCase()) ||
+        prod.producer.toLowerCase().includes(input.toLowerCase()) ||
+        writersStr.toLowerCase().includes(input.toLowerCase()) ||
+        descStr.toLowerCase().includes(input.toLowerCase())
+      ) {
+        filtered.push(prod);
+      } else if (input === "") {
+        filtered.push(prod);
+      }
+      return filtered
+    });
+    this.setState({filteredProds: filtered});
+    return filtered
+  }
+
+  componentDidMount() {
+    this.filterProdsByRole("");
+  }
+
+  handleChangeRole(e) {
+    this.filterProdsByRole(e.target.value);
+  }
+
+  handleChangeSearch(e) {
+    this.filterProdsBySearch(e.target.value);
+  }
+
   render() {
     return (
       <div>
-        {/*  H E A D I N G  */}
-        <h1 className="mt-5 page-heading">Recent Projects</h1>
+        <div className="container-fluid">
+          <div className="row justify-content-end">
+            <div className="col-md-6">
+              {/*  H E A D I N G  */}
+              <h1 className="mt-5 page-heading">Recent Projects</h1>
+            </div>
+            <div className="col-md-3">
+              <input className="mt-5 form-control" placeholder="Filter productions" onChange={this.handleChangeSearch}></input>
+            </div>
+          </div>
+        </div>
+
 
         {/*  L O O P  T H R O U G H  P R O D U C T I O N S  */}
-        {this.state.productions.reverse().map(prod => {
+        {this.state.filteredProds.reverse().map(prod => {
         if( this.checkDate(prod.date.runStart) && prod.shown ) {
         return (
           <Entry
