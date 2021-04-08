@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-const logoSize = "70rem";
+const logoSize = "65rem";
 
 function SiteFooter() {
   return (
