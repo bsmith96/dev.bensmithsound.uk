@@ -98,7 +98,7 @@ class Entry extends React.Component {
             className="collapse"
             id={prod.collapseId}
           >
-            <div className="row justify-content-center pt-3">
+            <div className="row gx-5 justify-content-center pt-3">
               
               {/*  L E F T  C O L U M N  ( F O R  S P A C I N G )  */}
               <div className="col-md-3"></div>
@@ -245,10 +245,13 @@ class Productions extends React.Component {
     var filtered = [];
     this.state.productions.filter( prod => {
       if (
-        prod.role.includes(input) ||
-        prod.showName.includes(input) ||
-        prod.descLead.includes(input) ||
-        prod.descRest.includes(input)
+        prod.role.toLowerCase().includes(input.toLowerCase()) ||
+        prod.showName.toLowerCase().includes(input.toLowerCase()) ||
+        prod.descLead.toLowerCase().includes(input.toLowerCase()) ||
+        prod.director.toLowerCase().includes(input.toLowerCase()) ||
+        prod.soundDesigner.toLowerCase().includes(input.toLowerCase()) ||
+        prod.venue.toLowerCase().includes(input.toLowerCase()) ||
+        prod.producer.toLowerCase().includes(input.toLowerCase())
       ) {
         filtered.push(prod);
       } else if (input === "") {
@@ -277,21 +280,12 @@ class Productions extends React.Component {
       <div>
         <div className="container-fluid">
           <div className="row justify-content-end">
-            <div className="col-md-3">
-              <input className="mt-5 form-control" onChange={this.handleChangeSearch}></input>
-            </div>
             <div className="col-md-6">
               {/*  H E A D I N G  */}
               <h1 className="mt-5 page-heading">Recent Projects</h1>
             </div>
-            <div className="col-md-3 d-none d-sm-block">
-              <select className="mt-5 form-select" aria-label="Filter productions" onChange={this.handleChangeRole}>
-                <option defaultValue value="">--- Filter productions by role ---</option>
-                <option value="Sound No. 1">Sound No. 1</option>
-                <option value="Sound No. 2">Sound No. 2</option>
-                <option value="Associate Sound Designer">Associate Sound Designer</option>
-                <option value="Sound Designer">Sound Designer</option>
-              </select>
+            <div className="col-md-3">
+              <input className="mt-5 form-control" placeholder="Filter productions" onChange={this.handleChangeSearch}></input>
             </div>
           </div>
         </div>
