@@ -244,6 +244,17 @@ class Productions extends React.Component {
   filterProdsBySearch(input) {
     var filtered = [];
     this.state.productions.filter( prod => {
+      var writersStr = "";
+      var descStr = "";
+      prod.writers.map(writers => {
+        writersStr = writersStr + writers.credit;
+        return null;
+      });
+      prod.descRest.map(paragraph => {
+        descStr = descStr + paragraph.text;
+        return null;
+      });
+
       if (
         prod.role.toLowerCase().includes(input.toLowerCase()) ||
         prod.showName.toLowerCase().includes(input.toLowerCase()) ||
@@ -251,7 +262,9 @@ class Productions extends React.Component {
         prod.director.toLowerCase().includes(input.toLowerCase()) ||
         prod.soundDesigner.toLowerCase().includes(input.toLowerCase()) ||
         prod.venue.toLowerCase().includes(input.toLowerCase()) ||
-        prod.producer.toLowerCase().includes(input.toLowerCase())
+        prod.producer.toLowerCase().includes(input.toLowerCase()) ||
+        writersStr.toLowerCase().includes(input.toLowerCase()) ||
+        descStr.toLowerCase().includes(input.toLowerCase())
       ) {
         filtered.push(prod);
       } else if (input === "") {
