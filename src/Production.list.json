@@ -3,6 +3,88 @@
     {
       "id": 0,
       "shown": true,
+      "poster": "18-06-thegreatestwealth.jpg",
+      "altText": "The Greatest Wealth show poster",
+      "showName": "The Greatest Wealth",
+      "role": "Sound Operator",
+      "venue": "The Old Vic",
+      "producer": "",
+      "director": "Directed by Adrian Lester",
+      "soundDesigner": "Sound Design by Andy Graham",
+      "date": {
+        "preStart": "2018-08-01",
+        "fitupStart": "2018-08-11",
+        "techStart": "2018-08-11",
+        "runStart": "2018-08-12",
+        "runEnd": "2018-08-25"
+      },
+      "dateString": "June 2018",
+      "writers": [
+        {
+          "credit": "Curated by Lolita Chakrabarti"
+        }
+      ],
+      "collapseId": "greatestWelathDesc",
+      "descLead": "The Greatest Wealth, curated by Lolita Chakrabarti and directed by Adrian Lester, will celebrate 70 years of the National Health Service this summer.",
+      "descRest": [
+        {
+          "text": "Eight specially-commissioned monologues by Moira Buffini, Lolita Chakrabarti, Seiriol Davies, Matilda Ibini, Courttia Newland, Meera Syal, Jack Thorne and Paul Unwin will be  performed by Jade Anouka, Louise English, Dervla Kirwan, Ruth Madeley, Art Malik, Meera Syal, Sophie Stone and David Threlfall  in response to each decade since Aneurin Bevan launched the NHS at Park Hospital, Manchester on 5 July 1948. Each evening will also include music performed by Gloria Obianyo and Dylan Townley."
+        },
+        {
+          "text": "This Old Vic commissioned set of world premiere monologues will salute and discuss the past, present and future of our NHS, an extraordinary institution that supports every single one of us. An absolute jewel in our crown."
+        }
+      ],
+      "mainVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "sideVideo": [
+        {
+          "width": 560
+        },
+        {
+          "height": 315
+        },
+        {
+          "url": "https://www.youtube.com/embed/VxAP1OU1scs"
+        },
+        {
+          "title": "YouTube video player"
+        },
+        {
+          "frameborder": 0
+        },
+        {
+          "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "\"No society can legitimately call itself civilised if a sick person is denied medical aid because of lack of means.\"",
+          "source": "Aneurin Bevan",
+          "cw": true
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "shown": true,
       "poster": "18-08-loveacatually.jpeg",
       "altText": "Love Aca-tually show poster",
       "showName": "Love Aca-tually",
@@ -82,7 +164,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "shown": true,
       "poster": "18-09-fup.jpeg",
       "altText": "Fup show poster",
@@ -170,7 +252,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "shown": true,
       "poster": "18-11-fanatical.jpeg",
       "altText": "Fanatical show poster",
@@ -252,7 +334,88 @@
       "quotes": []
     },
     {
-      "id": 3,
+      "id": 4,
+      "shown": true,
+      "poster": "19-02-maroon5.jpeg",
+      "altText": "Suspensions: Maroon 5 show poster",
+      "showName": "Suspensions: Maroon 5",
+      "role": "Sound Designer",
+      "venue": "The Anson Rooms",
+      "producer": "The Bristol Suspensions",
+      "director": "Five year anniversary concert presented with all previous performers",
+      "soundDesigner": "",
+      "date": {
+        "preStart": "2019-02-01",
+        "fitupStart": "2019-02-01",
+        "techStart": "2019-02-02",
+        "runStart": "2019-02-02",
+        "runEnd": "2019-02-02"
+      },
+      "dateString": "February 2019",
+      "writers": [],
+      "collapseId": "maroon5Desc",
+      "descLead": "Since making its start as the brainchild of three keen musical minds in the summer of 2014, The Bristol Suspensions launched onto the a cappella scene, speeding through milestones that had previously taken years to achieve. Within their first year of existence, they had made their debut as competitors in the Voice Festival competition, released a debut music video, performed on BBC Radio, recorded an album, and brought a show to the Edinburgh Fringe with a sell-out final night.",
+      "descRest": [
+        {
+          "text": "And that was in just 10 short months."
+        },
+        {
+          "text": "By the end of their second year, they had become national champions, taking the Voice Fest UK crown and achieving a full sell-out run at the Fringe. In their third year, they wowed the nation by competing on BBC television, recording and releasing their first studio album and taking their talents across the pond to tour the East Coast USA. Their fourth year saw the group reach new heights by attaining the highest ever UK score in the International Championship of Collegiate A Cappella, with the year culminating in another whole two-week full sell-out fringe run, performing to over 1,500 people."
+        },
+        {
+          "text": "Now in their fifth year, they are celebrating all things suspenseful, maroon, and a little bit cheesy by bringing you Maroon 5: Five Year Anniversary Show. With five generations of Suspensions returning to take to the stage once again - that’s over 35 performers - expect to be taken on a wild journey as we relive the history and the best bits of the group that we all love. Whatsmore, this one-of-a-kind show is in support of Off The Record, a mental health social movement by and for young people aged 11-25 living in Bristol and South Gloucestershire."
+        },
+        {
+          "text": "So if you enjoy singing, if you enjoy dancing, if you enjoy drama, comedy, slapstick, heartache, audience participation, supporting charity and more than a few excellently-pitched puns, you’re going to love this show."
+        },
+        {
+          "text": "All profits will go to Off The Record Bristol. Off the Record Bristol (OTR) is a mental health social movement by and for young people. OTR provides mental health support and info to young people aged 11-25 across Bristol and South Gloucestershire. Find out more at www.otrbristol.org.uk"
+        }
+      ],
+      "mainVideo": [
+        {
+          "width": ""
+        },
+        {
+          "height": ""
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "sideVideo": [
+        {
+          "width": 0
+        },
+        {
+          "height": 0
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": 0
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "quotes": []
+    },
+    {
+      "id": 5,
       "shown": true,
       "poster": "19-02-inthewillows.jpeg",
       "altText": "In The Willows show poster",
@@ -337,7 +500,7 @@
       "quotes": []
     },
     {
-      "id": 4,
+      "id": 6,
       "shown": true,
       "poster": "19-08-equus.jpeg",
       "altText": "Equus show poster",
@@ -419,7 +582,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 7,
       "shown": false,
       "poster": "19-07-peterrabbit.jpeg",
       "altText": "Peter Rabbit poster",
@@ -504,7 +667,7 @@
       "quotes": []
     },
     {
-      "id": 6,
+      "id": 8,
       "shown": true,
       "poster": "19-11-theseason.jpeg",
       "altText": "The Season show poster",
@@ -594,7 +757,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 9,
       "shown": true,
       "poster": "19-12-pippi.jpeg",
       "altText": "Pippi Longstocking show poster",
@@ -682,7 +845,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 10,
       "shown": true,
       "poster": "20-01-jpgffs.jpeg",
       "altText": "Fashion Freak Show poster",
@@ -760,7 +923,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 11,
       "shown": true,
       "poster": "20-02-piratequeen.jpeg",
       "altText": "The Pirate Queen show poster",
@@ -848,7 +1011,7 @@
       "quotes": []
     },
     {
-      "id": 10,
+      "id": 12,
       "shown": true,
       "poster": "21-03-babe.jpeg",
       "altText": "Babe show poster",
@@ -929,7 +1092,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 13,
       "shown": true,
       "poster": "21-04-whocares.jpeg",
       "altText": "Who Cares poster",
@@ -1004,7 +1167,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 14,
       "shown": true,
       "poster": "21-06-twelfthnight.jpeg",
       "altText": "Twelfth Night poster",
