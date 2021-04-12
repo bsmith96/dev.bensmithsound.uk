@@ -11,7 +11,7 @@ var headshot = headshots[Math.floor(Math.random()*headshots.length)];
 function AboutMe() {
   return (
     <div className="container-fluid">
-      <h1 className="mt-3 page-heading">About Me</h1>
+      <h1 className="mt-3 page-heading-2 display-5">About Me</h1>
       <div className="row gy-3 mt-2 align-items-center">
         <div className="col-lg-3 d-none d-lg-block">
           <img src={headshot} className="img-fluid rounded shadow" alt="Ben Smith"></img>

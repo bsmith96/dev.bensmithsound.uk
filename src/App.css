@@ -10747,8 +10747,20 @@ body {
   font-family: karla;
   src: url("./_fonts/Karla/Karla-VariableFont_wght.ttf");
 }
+@font-face {
+  font-family: zillaSlab;
+  src: url("./_fonts/Zilla_Slab/ZillaSlab-Regular.ttf");
+}
+@font-face {
+  font-family: zillaSlabBold;
+  src: url("./_fonts/Zilla_Slab/ZillaSlab-SemiBold.ttf");
+}
+@font-face {
+  font-family: openSans;
+  src: url("./_fonts/Open_Sans/OpenSans-Regular.ttf");
+}
 .navbar-brand {
-  font-family: rockSalt, sans-serif;
+  font-family: zillaSlabBold, sans-serif;
   text-shadow: 5px 3px 4px #001329;
 }
 
@@ -10764,10 +10776,8 @@ body {
 }
 
 .header-title {
-  font-size: 2rem;
-  font-weight: bold;
   text-align: center;
-  font-family: rockSalt, sans-serif;
+  font-family: zillaSlabBold, sans-serif;
 }
 
 .header-subtitle {
@@ -10789,14 +10799,23 @@ body {
 .page-heading {
   color: #00296B;
   text-align: center;
-  text-decoration: underline;
-  font-family: specialElite, sans-serif;
+  font-family: zillaSlab, sans-serif;
+}
+
+.page-heading-2 {
+  color: #00296B;
+  text-align: center;
+  font-family: zillaSlabBold, sans-serif;
+}
+
+.bg-light-blue {
+  background-color: #cfe2ff;
 }
 
 .page-subheading {
   color: #00296B;
   text-align: center;
-  font-family: specialElite, sans-serif;
+  font-family: zillaSlab, sans-serif;
 }
 
 /*  OLD VERSION
@@ -10814,16 +10833,18 @@ body {
 }
 
 .show-info-name {
-  font-family: specialElite, sans-serif;
-  font-weight: 600;
-  font-size: xx-large;
+  font-family: zillaSlab, sans-serif;
+  font-size: 2.5rem;
   color: #00296B;
 }
 
 .show-info-role {
-  font-size: larger;
   font-family: raleway, sans-serif;
   color: #00296B;
+}
+
+.role-font {
+  font-family: zillaSlabBold, sans-serif;
 }
 
 .show-info-creatives {
@@ -10832,7 +10853,7 @@ body {
 }
 
 .show-info-readmore {
-  font-family: karla, sans-serif;
+  font-family: karla;
   font-size: smaller;
 }
 

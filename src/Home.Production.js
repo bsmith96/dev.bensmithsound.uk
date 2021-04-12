@@ -296,7 +296,7 @@ class Productions extends React.Component {
             <div className="col-md-3"></div>
             <div className="col-md-6">
               {/*  H E A D I N G  */}
-              <h1 className="mt-4 page-heading">Recent Projects</h1>
+              <h1 className="mt-3 page-heading-2 display-5">Recent Projects</h1>
             </div>
             <div className="col-md-3 d-none d-lg-block">
               <input className="mt-4 form-control" placeholder="Filter productions" onChange={this.handleChangeSearch}></input>

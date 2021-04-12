@@ -47,11 +47,26 @@ body {
   src: url("./_fonts/Karla/Karla-VariableFont_wght.ttf");
 }
 
+@font-face {
+  font-family: zillaSlab;
+  src: url("./_fonts/Zilla_Slab/ZillaSlab-Regular.ttf");
+}
+
+@font-face {
+  font-family: zillaSlabBold;
+  src: url("./_fonts/Zilla_Slab/ZillaSlab-SemiBold.ttf")
+}
+
+@font-face {
+  font-family: openSans;
+  src: url("./_fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
 
 ///////////////  N A V B A R  ///////////////
 
 .navbar-brand {
-  font-family: rockSalt, sans-serif;
+  font-family: zillaSlabBold, sans-serif;
   text-shadow: 5px 3px 4px $dark;
 }
 
@@ -73,10 +88,10 @@ body {
 
 .header-title {
   //text-decoration: underline;
-  font-size: $h2-font-size;
-  font-weight: bold;
+  //font-size: $h1-font-size;
+  //font-weight: bold;
   text-align: center;
-  font-family: rockSalt, sans-serif;
+  font-family: zillaSlabBold, sans-serif;
 }
 
 .header-subtitle {
@@ -103,18 +118,26 @@ body {
 ///////////////  P A G E  H E A D I N G S  ///////////////
 
 .page-heading {
-  //color: $blue-900;
   color: $primary;
   text-align: center;
-  text-decoration: underline;
-  font-family: specialElite, sans-serif;
+  font-family: zillaSlab, sans-serif;
+}
+
+.page-heading-2 {
+  color: $primary;
+  text-align: center;
+  font-family: zillaSlabBold, sans-serif;
+}
+
+.bg-light-blue {
+  background-color: $blue-100;
 }
 
 .page-subheading {
   //color: $blue-800;
   color: $primary;
   text-align: center;
-  font-family: specialElite, sans-serif;
+  font-family: zillaSlab, sans-serif;
 }
 
 
@@ -139,16 +162,22 @@ body {
 
 .show-info-name {
   //font-family: specialElite;
-  font-family: specialElite, sans-serif;
-  font-weight: 600;
-  font-size: xx-large;
+  font-family: zillaSlab, sans-serif;
+  //font-weight: 600;
+  //font-size: xx-large;
+  font-size: $h1-font-size;
   color: $primary;
 }
 
 .show-info-role {
-  font-size: larger;
+  //font-size: larger;
   font-family: raleway, sans-serif;
+  //font-family: zillaSlab, sans-serif;
   color: $primary;
+}
+
+.role-font {
+  font-family: zillaSlabBold, sans-serif;
 }
 
 .show-info-creatives {
@@ -158,7 +187,7 @@ body {
 }
 
 .show-info-readmore {
-  font-family: karla, sans-serif;
+  font-family: karla;
   font-size: smaller;
 }
 
