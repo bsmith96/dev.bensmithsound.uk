@@ -53,7 +53,7 @@ class Entry extends React.Component {
     const prod = this.props;
     return(
       <div className="container-fluid">
-        <div className="container-fluid px-4 mt-4 show-info">
+        <div className="container-fluid px-4 mb-4 show-info">
           <div className="row gx-5 align-items-center position-relative">
 
             {/*  L E F T  C O L U M N  */}
@@ -293,12 +293,13 @@ class Productions extends React.Component {
       <div>
         <div className="container-fluid">
           <div className="row justify-content-end">
+            <div className="col-md-3"></div>
             <div className="col-md-6">
               {/*  H E A D I N G  */}
-              <h1 className="mt-5 page-heading">Recent Projects</h1>
+              <h1 className="mt-4 page-heading">Recent Projects</h1>
             </div>
             <div className="col-md-3 d-none d-lg-block">
-              <input className="mt-5 form-control" placeholder="Filter productions" onChange={this.handleChangeSearch}></input>
+              <input className="mt-4 form-control" placeholder="Filter productions" onChange={this.handleChangeSearch}></input>
             </div>
           </div>
         </div>
