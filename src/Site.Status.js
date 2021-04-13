@@ -137,7 +137,7 @@ class Status extends React.Component {
           {this.setStatus() !== "." &&
             <div className="col-md-6 mt-2">
                 <p className="text-end mb-1"><span className="badge bg-secondary status-date">{this.getDate()}</span></p>
-              <div className="alert alert-primary" role="alert">
+              <div className="alert alert-primary">
                 <strong>{this.setGreeting()}</strong> <text dangerouslySetInnerHTML={{__html: this.setStatus() }}></text>
               </div>
             </div>

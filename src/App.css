@@ -10725,15 +10725,22 @@ textarea.form-control-lg {
 body {
   background-color: #f8f9fa;
   font-family: karla, sans-serif;
-  font-weight: 400;
+  font-weight: 350;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+em {
+  font-family: karlaItalics;
+  font-synthesis: none;
 }
 
 strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .lead {
-  font-weight: 400;
+  font-weight: 350;
 }
 
 @font-face {
@@ -10750,19 +10757,27 @@ strong {
 }
 @font-face {
   font-family: raleway;
-  src: url("./_fonts/Raleway/Raleway-VariableFont_wght.ttf") format("ttf-variations");
+  src: url("./_fonts/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 @font-face {
   font-family: ralewayItalics;
-  src: url("./_fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
+  src: url("./_fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
 }
 @font-face {
   font-family: karla;
-  src: url("./_fonts/Karla/Karla-VariableFont_wght.ttf") format("ttf-variations");
+  src: url("./_fonts/Karla/Karla-VariableFont_wght.ttf") format("truetype");
   font-weight: 200 800;
   font-style: normal;
+}
+@font-face {
+  font-family: karlaItalics;
+  src: url("./_fonts/Karla/Karla-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 200 800;
+  font-style: italic;
 }
 @font-face {
   font-family: zillaSlab;
@@ -10879,7 +10894,7 @@ strong {
 .show-info-creatives {
   font-family: ralewayItalics, sans-serif;
   font-synthesis: none;
-  font-weight: 301;
+  font-weight: 350;
 }
 
 .show-info-readmore {
@@ -10963,7 +10978,8 @@ strong {
 
 .footer {
   background-color: #ced4da;
-  font-style: italic;
+  font-family: karlaItalics;
+  font-synthesis: none;
   text-align: right;
   background-image: var(--bs-gradient);
   vertical-align: middle;
