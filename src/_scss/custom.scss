@@ -18,6 +18,15 @@ $dark: #001329;
 body {
   background-color: $light;
   font-family: karla, sans-serif;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.lead {
+  font-weight: 400;
 }
 
 
@@ -39,12 +48,21 @@ body {
 
 @font-face {
   font-family: raleway;
-  src: url("./_fonts/Raleway/Raleway-VariableFont_wght.ttf");
+  src: url("./_fonts/Raleway/Raleway-VariableFont_wght.ttf") format('ttf-variations');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ralewayItalics;
+  src: url("./_fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: karla;
-  src: url("./_fonts/Karla/Karla-VariableFont_wght.ttf");
+  src: url("./_fonts/Karla/Karla-VariableFont_wght.ttf") format('ttf-variations');
+  font-weight: 200 800;
+  font-style: normal;
 }
 
 @font-face {
@@ -72,6 +90,7 @@ body {
 
 .navbar {
   font-family: raleway, sans-serif;
+  font-weight: 300;
 }
 
 
@@ -112,6 +131,11 @@ body {
 .carousel-desc {
   font-family: raleway, sans-serif;
   text-shadow: 4px 2px 3px $dark;
+}
+
+.status-date {
+  font-weight: 300;
+  font-synthesis: none;
 }
 
 
@@ -172,8 +196,14 @@ body {
 .show-info-role {
   //font-size: larger;
   font-family: raleway, sans-serif;
+  font-weight: 350;
   //font-family: zillaSlab, sans-serif;
   color: $primary;
+}
+
+.show-info-role strong {
+  font-weight: 601;
+  font-synthesis: none;
 }
 
 .role-font {
@@ -181,14 +211,16 @@ body {
 }
 
 .show-info-creatives {
-  font-style: italic;
-  font-family: raleway, sans-serif;
+  font-family: ralewayItalics, sans-serif;
+  font-synthesis: none;
+  font-weight: 301;
   //font-family: nothingYouCouldDo;
 }
 
 .show-info-readmore {
   font-family: karla;
   font-size: smaller;
+  font-weight: 300;
 }
 
 .show-info-date {

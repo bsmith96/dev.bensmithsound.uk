@@ -292,7 +292,7 @@ class Productions extends React.Component {
     return (
       <div>
         <div className="container-fluid">
-          <div className="row justify-content-end">
+          <div className="row gx-2 mb-2">
             <div className="col-md-3"></div>
             <div className="col-md-6">
               {/*  H E A D I N G  */}
