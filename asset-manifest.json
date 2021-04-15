@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bdd6f6a.chunk.css",
-    "main.js": "/static/js/main.0806302d.chunk.js",
-    "main.js.map": "/static/js/main.0806302d.chunk.js.map",
+    "main.css": "/static/css/main.8ea6c90c.chunk.css",
+    "main.js": "/static/js/main.57b8ad20.chunk.js",
+    "main.js.map": "/static/js/main.57b8ad20.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.94ba75fb.js",
     "runtime-main.js.map": "/static/js/runtime-main.94ba75fb.js.map",
     "static/js/2.574c55ef.chunk.js": "/static/js/2.574c55ef.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bc6143d5.chunk.js": "/static/js/3.bc6143d5.chunk.js",
     "static/js/3.bc6143d5.chunk.js.map": "/static/js/3.bc6143d5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3bdd6f6a.chunk.css.map": "/static/css/main.3bdd6f6a.chunk.css.map",
+    "static/css/main.8ea6c90c.chunk.css.map": "/static/css/main.8ea6c90c.chunk.css.map",
     "static/js/2.574c55ef.chunk.js.LICENSE.txt": "/static/js/2.574c55ef.chunk.js.LICENSE.txt",
     "static/media/19-11-theseason-1-165.510b833f.jpg": "/static/media/19-11-theseason-1-165.510b833f.jpg",
     "static/media/19-11-theseason-2-165.2f6c86d3.jpg": "/static/media/19-11-theseason-2-165.2f6c86d3.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.94ba75fb.js",
     "static/js/2.574c55ef.chunk.js",
-    "static/css/main.3bdd6f6a.chunk.css",
-    "static/js/main.0806302d.chunk.js"
+    "static/css/main.8ea6c90c.chunk.css",
+    "static/js/main.57b8ad20.chunk.js"
   ]
 }
