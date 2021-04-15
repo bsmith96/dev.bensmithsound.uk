@@ -10741,6 +10741,7 @@ strong {
 
 .lead {
   font-weight: 350;
+  font-size: large;
 }
 
 @font-face {

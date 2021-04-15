@@ -116,7 +116,9 @@ class Entry extends React.Component {
                 }
 
                 {/*  D E S C R I P T I O N  F I R S T  P A R A G R A P H  */}
-                <p className="lead">{prod.descLead}</p>
+                {prod.descLead !== "" &&
+                  <p className="lead">{prod.descLead}</p>
+                }
 
                 {/*  D E S C R I P T I O N  L O O P  */}
                 {prod.descRest.map(desc => (
