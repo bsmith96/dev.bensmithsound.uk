@@ -17,15 +17,15 @@ class Status extends React.Component {
       "Hello!"
     ]
 
-    const now = new Date();
+    //const now = new Date();
     var greeting = ""
     var pickGreeting = ""
 
-    if(now.getHours() < 12) {
+    if(today.getHours() < 12) {
       greeting = "Good morning!"
-    } else if(now.getHours() < 18 && now.getHours() >= 12) {
+    } else if(today.getHours() < 18 && today.getHours() >= 12) {
       greeting = "Good afternoon!"
-    } else if(now.getHours() < 23 && now.getHours() >= 18) {
+    } else if(today.getHours() < 23 && today.getHours() >= 18) {
       greeting = "Good evening!"
     };
 
