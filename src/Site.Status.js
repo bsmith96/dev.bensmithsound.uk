@@ -48,7 +48,7 @@ class Status extends React.Component {
       var fitupStart = new Date(Date.parse(prod.date.fitupStart));
       var techStart = new Date(Date.parse(prod.date.techStart));
       var runStart = new Date(Date.parse(prod.date.runStart));
-      var runEnd = new Date(Date.parse(prod.date.runEnd));
+      var runEnd = new Date(Date.parse(prod.date.runEnd + " 23:59:59"));
 
       /*if (prod.producer) {
         var showRef = prod.showName + " (for " + prod.producer + ")"
@@ -84,8 +84,8 @@ class Status extends React.Component {
         if(status === "") {
           status = "I am currently " + prodStatus;
         } else {
-          status = status.replace(" & ", ", ");
-          status = status.concat(" & " + prodStatus);
+          status = status.replace(", and ", ", ");
+          status = status.concat(", and " + prodStatus);
         }
       };
 
