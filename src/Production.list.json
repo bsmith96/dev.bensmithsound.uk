@@ -1187,7 +1187,10 @@
       "dateString": "June 2021",
       "writers": [
         {
-          "credit": "Written by Taib"
+          "credit": "Conceived by Kwame Kwei-Armah & Shaina Taub"
+        },
+        {
+          "credit": "Music & Lyrics By Shaina Taub"
         }
       ],
       "collapseId": "twelfthNightDesc",
@@ -1195,6 +1198,9 @@
       "descRest": [
         {
           "text": "Viola and her twin brother Sebastian wash up on the shores of Illyria and when she disguises herself as a man, a joyous whirlwind of gender-bending and unrequited love begins."
+        },
+        {
+          "text": "Live at Racks Close in Guildford, not online! Named one of the best theatrical productions of 2018, Twelfth Night is a lively musical adaptation of Shakespeare’s classic romantic comedy about mistaken identity and self-discovery."
         }
       ],
       "mainVideo": [
@@ -1238,11 +1244,80 @@
         }
       ],
       "quotes": [
+      ]
+    },
+    {
+      "id": 15,
+      "shown": true,
+      "poster": "21-06-motherclap.jpeg",
+      "altText": "Mother Clap poster",
+      "showName": "Mother Clap's Molly House",
+      "role": "Sound No. 1",
+      "venue": "Backstage Theatre",
+      "producer": "Mountview Theatre School",
+      "director": "Directed by --",
+      "soundDesigner": "Sound Design by Michael Livermore",
+      "date": {
+        "preStart": "2021-06-14",
+        "fitupStart": "2021-06-15",
+        "techStart": "2021-06-18",
+        "runStart": "2021-06-23",
+        "runEnd": "2021-06-26"
+      },
+      "dateString": "June 2021",
+      "writers": [
         {
-          "text": "Twelfth Night was performed outdoors at Rack's Close, Guildford",
-          "source": "",
-          "acw": true
+          "credit": "Written by --"
         }
+      ],
+      "collapseId": "motherClapDesc",
+      "descLead": "",
+      "descRest": [
+        {
+          "text": ""
+        }
+      ],
+      "mainVideo": [
+        {
+          "width": 0
+        },
+        {
+          "height": 0
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "sideVideo": [
+        {
+          "width": 0
+        },
+        {
+          "height": 0
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "quotes": [
       ]
     }
   ]
