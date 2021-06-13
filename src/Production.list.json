@@ -1191,6 +1191,9 @@
         },
         {
           "credit": "Music & Lyrics By Shaina Taub"
+        },
+        { 
+          "credit": "Musical Direction by Tom Turner"
         }
       ],
       "collapseId": "twelfthNightDesc",
@@ -1255,7 +1258,7 @@
       "role": "Sound No. 1",
       "venue": "Backstage Theatre",
       "producer": "Mountview Theatre School",
-      "director": "Directed by --",
+      "director": "Directed by Philip Engleheart",
       "soundDesigner": "Sound Design by Michael Livermore",
       "date": {
         "preStart": "2021-06-14",
@@ -1267,10 +1270,92 @@
       "dateString": "June 2021",
       "writers": [
         {
-          "credit": "Written by --"
+          "credit": "Written by Mark Ravenhill"
         }
       ],
       "collapseId": "motherClapDesc",
+      "descLead": "Skipping between an 18th century Molly house and a group of men planning a raunchy party in 21st century Shoreditch, Mother Clap’s Molly House is a riotous celebration of the diversity of human sexuality, and a comment on the commodification of sex and love.",
+      "descRest": [
+        {
+          "text": "Performed by Mountview’s Third Year BA Performance – Musical Theatre students."
+        },
+        {
+          "text": "The play was first performed at the National’s Lyttleton Theatre on the 4th September 2001 and at the Aldwych Theatre on the 8th February 2002. The play was commissioned and presented in a workshop production by the London Academy of Music and Dramatic Arts in February 2000."
+        }
+      ],
+      "mainVideo": [
+        {
+          "width": 0
+        },
+        {
+          "height": 0
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "sideVideo": [
+        {
+          "width": 0
+        },
+        {
+          "height": 0
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Mother Clap's Molly House was filmed and later broadcast in line with Covid-secure policies", 
+          "source": "",
+          "cw": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "shown": true,
+      "poster": "21-07-midsummernightsdream.jpeg",
+      "altText": "Midsummer Night's Dream poster",
+      "showName": "Midsummer Night's Dream",
+      "role": "Sound No. 1",
+      "venue": "Bellairs Theatre",
+      "producer": "Guildford School of Acting",
+      "director": "Directed by ",
+      "soundDesigner": "Sound Design by Michael Livermore",
+      "date": {
+        "preStart": "2021-06-28",
+        "fitupStart": "2021-06-28",
+        "techStart": "2021-07-06",
+        "runStart": "2021-07-08",
+        "runEnd": "2021-07-09"
+      },
+      "dateString": "July 2021",
+      "writers": [
+        {
+          "credit": "Written by --"
+        }
+      ],
+      "collapseId": "midsummerNightsDreamDesc",
       "descLead": "",
       "descRest": [
         {
