@@ -1,20 +1,26 @@
 import './App.css';
-import image1 from './_images/Carousel/20-02-piratequeen-1-165.jpg';
-import image2 from './_images/Carousel/19-11-theseason-2-165.jpg';
-import image3 from './_images/Carousel/19-11-theseason-1-165.jpg';
+import image1 from './_images/Carousel/21-06-twelfthnight-2-165.jpg';
+import image2 from './_images/Carousel/20-02-piratequeen-1-165.jpg';
+import image3 from './_images/Carousel/19-11-theseason-2-165.jpg';
+import image4 from './_images/Carousel/19-11-theseason-1-165.jpg';
 
 
-const alt1 = "The Pirate Queen from the mixing desk";
-const head1 = "The Pirate Queen";
-const subhead1 = "The London Coliseum. February 2020"
 
-const alt2 = "Dougal in The Season";
-const head2 = "The Season";
-const subhead2 = "Royal & Derngate. November 2019. Photo © Pamela Raith Photography";
+const alt1 = "Twelfth Night from the mixing desk, with Qlab and R1";
+const head1 = "Twelfth Night";
+const subhead1 = "Racks Close, for Guildford School of Acting. June 2021";
 
-const alt3 = "Dougal and Robin in The Season";
+const alt2 = "The Pirate Queen from the mixing desk";
+const head2 = "The Pirate Queen";
+const subhead2 = "The London Coliseum. February 2020"
+
+const alt3 = "Dougal in The Season";
 const head3 = "The Season";
 const subhead3 = "Royal & Derngate. November 2019. Photo © Pamela Raith Photography";
+
+const alt4 = "Dougal and Robin in The Season";
+const head4 = "The Season";
+const subhead4 = "Royal & Derngate. November 2019. Photo © Pamela Raith Photography";
 
 function Carousel() {
   return (
@@ -23,6 +29,7 @@ function Carousel() {
         <button type="button" data-bs-target="#recentShowsCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#recentShowsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#recentShowsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#recentShowsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
@@ -44,6 +51,13 @@ function Carousel() {
           <div className="carousel-caption d-none d-lg-block">
             <h5 className="carousel-title">{head3}</h5>
             <p className="carousel-desc">{subhead3}</p>
+          </div>
+        </div>
+        <div className="carousel-item">
+          <img src={image4} className="d block w-100" alt={alt4} />
+          <div className="carousel-caption d-none d-lg-block">
+            <h5 className="carousel-title">{head4}</h5>
+            <p className="carousel-desc">{subhead4}</p>
           </div>
         </div>
       </div>
