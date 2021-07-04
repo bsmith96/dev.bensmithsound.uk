@@ -1333,10 +1333,10 @@
     },
     {
       "id": 16,
-      "shown": true,
+      "shown": false,
       "poster": "21-07-midsummernightsdream.jpeg",
       "altText": "Midsummer Night's Dream poster",
-      "showName": "Midsummer Night's Dream",
+      "showName": "The Light Burns Blue & Midsummer Night's Dream",
       "role": "Sound No. 1",
       "venue": "Bellairs Theatre",
       "producer": "Guildford School of Acting",
@@ -1352,7 +1352,7 @@
       "dateString": "July 2021",
       "writers": [
         {
-          "credit": "Written by --"
+          "credit": "Written by William Shakespeare"
         }
       ],
       "collapseId": "midsummerNightsDreamDesc",
