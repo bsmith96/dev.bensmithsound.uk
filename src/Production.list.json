@@ -1404,6 +1404,166 @@
       ],
       "quotes": [
       ]
+    },
+    {
+      "id": 17,
+      "shown": false,
+      "poster": "21-08-chicago.jpeg",
+      "altText": "Chicago poster",
+      "showName": "Chicago",
+      "role": "Sound No. 3",
+      "venue": "Kongress Square, Slovenia",
+      "producer": "",
+      "director": "Directed by Mykal Rand",
+      "soundDesigner": "Sound Design by Chris Whybrow",
+      "date": {
+        "preStart": "2021-08-03",
+        "fitupStart": "2021-08-12",
+        "techStart": "2021-08-14",
+        "runStart": "2021-08-16",
+        "runEnd": "2021-08-20"
+      },
+      "dateString": "August 2021",
+      "writers": [
+        {
+          "credit": "Music by John Kander"
+        },
+        {
+          "credit": "Lyrics by Fred Ebb"
+        },
+        {
+          "credit": "Book by Fred Ebb and John Fosse"
+        }
+      ],
+      "collapseId": "chicagoDesc",
+      "descLead": "Chicago is one of the most successful Broadway musicals of all time and has seen countless revivals and new productions since its premiere at the 46th Street Theatre in 1975.",
+      "descRest": [
+        {
+          "text": "With music by John Kander, lyrics by Fred Ebb and book by Ebb and John Fosse, Chicago is based on the 1926 play of the same name by the journalist Maurine Dallas Watkins, who took her inspiration from the crime stories she reported on in her newspaper column. The original production was directed and choreographed by Bob Fosse, a famous Broadway choreographer also known for musicals such as Sweet Charity, Cabaret and All That Jazz. Today’s stagings of the musical are based on the 1996 revival with choreography by Ann Reinking “in the style of Bob Fosse”. The musical is a brilliant spectacle set in the Chicago of the jazz age, a tale full of intrigue, love, deception, betrayal, rivalry and friendship. The two main characters are the naïve Roxie Hart, who wants nothing more than to become a famous dancer, and the established cabaret star Velma Kelly, both of whom find themselves in court accused of murdering their lovers. With the help of cunning lawyer Billy Flynn, they try to escape a death sentence and, between their arrest and the end of the trial perform, numerous entertaining song-and-dance numbers such as “All That Jazz”, “Hot Honey Rag” and “Razzle Dazzle”."
+        }
+      ],
+      "mainVideo": [
+        {
+          "width": 0
+        },
+        {
+          "height": 0
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "sideVideo": [
+        {
+          "width": 0
+        },
+        {
+          "height": 0
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "quotes": [
+      ]
+    },
+    {
+      "id": 18,
+      "shown": false,
+      "poster": "21-10-tophat.jpeg",
+      "altText": "Top Hat poster",
+      "showName": "Top Hat",
+      "role": "Sound No. 1",
+      "venue": "The Mill at Sonning",
+      "producer": "",
+      "director": "Directed by Jonathan O'Boyle",
+      "soundDesigner": "Sound Design by Chris Whybrow",
+      "date": {
+        "preStart": "2021-10-04",
+        "fitupStart": "2021-10-09",
+        "techStart": "2021-10-10",
+        "runStart": "2021-10-16",
+        "runEnd": "2022-01-08"
+      },
+      "dateString": "Oct 2021 - Jan 2022",
+      "writers": [
+        {
+          "credit": "Music and Lyrics by Irving Berlin"
+        },
+        {
+          "credit": "Book by Matthew White and Howard Jacques"
+        }
+      ],
+      "collapseId": "topHatDesc",
+      "descLead": "Top Hat brings the glamour of Hollywood’s golden age and the magic of the world famous dance partnership of Fred Astaire & Ginger Rogers to the stage.",
+      "descRest": [
+        {
+          "text": "This 2011 musical based on the 1935 film of the same name, tells the story of Broadway sensation Jerry Travers who dances his way across Europe to win the heart of society girl Dale Tremont. With an uplifting and entertaining script, this show celebrates 1930s song, style and romance. Underpinning every scene are Irving Berlin’s magnificent songs including Puttin’ on the Ritz, Cheek to Cheek, Isn’t This A Lovely Day, and of course, Top Hat, White Tie & Tails."
+        },
+        {
+          "text": "As usual our talented creative team will put together stunning settings, sparkling costumes, heavenly choreography, a tip-top cast all wrapped up with – as Irving Berlin says – “music and love and romance”."
+        }
+      ],
+      "mainVideo": [
+        {
+          "width": 0
+        },
+        {
+          "height": 0
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "sideVideo": [
+        {
+          "width": 0
+        },
+        {
+          "height": 0
+        },
+        {
+          "url": ""
+        },
+        {
+          "title": ""
+        },
+        {
+          "frameborder": ""
+        },
+        {
+          "allow": ""
+        }
+      ],
+      "quotes": [
+      ]
     }
   ]
 }
