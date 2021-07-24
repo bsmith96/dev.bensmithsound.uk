@@ -8,6 +8,7 @@ import Status from './Site.Status';
 import Carousel from './Home.Carousel';
 import AboutMe from './Home.AboutMe';
 import Production from './Home.Production';
+import ClimateClock from './Home.ClimateClock';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
     <Status />
     <AboutMe />
     <Production />
+    <ClimateClock />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
