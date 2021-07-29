@@ -110,6 +110,22 @@ strong {
   font-weight: 300;
 }
 
+.navbar-logo-1 {
+  font-family: zillaSlabBold, sans-serif;
+  font-size: 1.3rem;
+}
+
+.navbar-logo-2 {
+  font-family: zillaSlab, sans-serif;
+  font-size: 1rem;
+  transform: translate(0, -100%);
+}
+
+.navbar-logo {
+  filter: drop-shadow(0rem 0.5rem 1rem rgba(0,0,0,0.7));
+  -webkit-filter: drop-shadow(0rem 0.5rem 1rem rgba(0,0,0,0.45));
+  vertical-align: center;
+}
 
 ///////////////  S I T E  H E A D E R   ///////////////
 

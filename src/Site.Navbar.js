@@ -1,5 +1,7 @@
 import './App.css';
 
+const logoSize = "27rem";
+
 function Navbar() {
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style={{zIndex:'4'}}>
@@ -8,7 +10,12 @@ function Navbar() {
           className="navbar-brand"
           href="/"
         >
-          <i className="bi-soundwave" /> Ben Smith Sound
+          <img
+              className="navbar-image"
+              src="images/Logo - Horizontal white.png"
+              alt="Ben Smith Sound logo"
+              height={logoSize}
+            />
         </a>
         <button
           className="navbar-toggler"
