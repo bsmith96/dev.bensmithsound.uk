@@ -32,7 +32,12 @@ function AboutMe() {
               target="_blank"
               rel="noreferrer"
               className="text-reset"
-            >Reaper</a> easier in a live theatre environment. I also learnt some simple web development for one-page sites, such as the one you're looking at right now!</p>
+            >Reaper</a> easier in a live theatre environment, and a small application which allows you to remotely display the position of the playhead on a <a
+              href="https://www.github.com/bsmith96/qlab-display"
+              target="_blank"
+              rel="noreferrer"
+              className="text-reset"
+            >remote Qlab cue list</a>. I also learnt some simple web development for one-page sites, such as the one you're looking at right now!</p>
           <p>While live theatre remains a struggle for many creatives and venues, I am also available for work on <strong>recordings</strong> and broadcast events, whether it’s <strong>editing</strong> and cleaning up recordings from zoom, <strong>mixing</strong> a performance remotely or as a livestream, or a creative <strong>sound design</strong> for a digital production.</p>
         </div>
       </div>

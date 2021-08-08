@@ -45,6 +45,7 @@ function Navbar() {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a className="dropdown-item" href="https://www.github.com/bsmith96/Qlab-Scripts" target="_blank" rel="noreferrer">Qlab Scripts</a></li>
                 <li><a className="dropdown-item" href="https://www.github.com/bsmith96/Reaper-Scripts" target="_blank" rel="noreferrer">Reaper Scripts</a></li>
+                <li><a className="dropdown-item" href="https://www.github.com/bsmith96/qlab-display" target="_blank" rel="noreferrer">Qlab Display</a></li>
               </ul>
             </li>
           </ul>
