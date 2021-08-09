@@ -22,17 +22,22 @@ function AboutMe() {
           <p>I also have experience in <strong>sound design</strong> for theatrical productions, concerts and live events.</p>
           {/*<p>I always strive to be adaptable, to take challenges in my stride and work with the entire production team to create the best possible result.</p>*/}
           <p>Recently, I have spent this period of lockdown refining my collection of <a 
-            href="https://www.github.com/bsmith96/Qlab-Scripts"
-            target="_blank"
-            rel="noreferrer"
-            className="text-reset"
-          >
+              href="https://www.github.com/bsmith96/Qlab-Scripts"
+              target="_blank"
+              rel="noreferrer"
+              className="text-reset"
+            >
             scripts for Figure 53's Qlab</a>, as well as creating a few simple scripts to make working with <a
               href="https://www.github.com/bsmith96/Reaper-Scripts"
               target="_blank"
               rel="noreferrer"
               className="text-reset"
-            >Reaper</a> easier in a live theatre environment, and a small application which allows you to remotely display the position of the playhead on a <a
+            >Reaper</a> easier in a live theatre environment. The reaper scripts can be installed via the package manager <a
+              href="https://reapack.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-reset"
+            >Reapack</a>, to allow you to keep the scripts up to date. I have also worked on a small application which allows you to remotely display the position of the playhead on a <a
               href="https://www.github.com/bsmith96/qlab-display"
               target="_blank"
               rel="noreferrer"
