@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+//import './index.css';
 import Navbar from './Site.Navbar';
 import SiteHeader from './Site.Header';
 import Footer from './Site.Footer';
