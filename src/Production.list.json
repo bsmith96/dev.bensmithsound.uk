@@ -1012,7 +1012,7 @@
     },
     {
       "id": 12,
-      "shown": true,
+      "shown": false,
       "poster": "21-03-babe.jpeg",
       "altText": "Babe show poster",
       "showName": "Babe The Sheep Pig",
@@ -1093,7 +1093,7 @@
     },
     {
       "id": 13,
-      "shown": true,
+      "shown": false,
       "poster": "21-04-whocares.jpeg",
       "altText": "Who Cares poster",
       "showName": "Who Cares",
@@ -1251,7 +1251,7 @@
     },
     {
       "id": 15,
-      "shown": true,
+      "shown": false,
       "poster": "21-06-motherclap.jpeg",
       "altText": "Mother Clap poster",
       "showName": "Mother Clap's Molly House",
@@ -1407,13 +1407,13 @@
     },
     {
       "id": 17,
-      "shown": false,
+      "shown": true,
       "poster": "21-08-chicago.jpeg",
       "altText": "Chicago poster",
       "showName": "Chicago",
       "role": "Sound No. 3",
       "venue": "Kongress Square, Slovenia",
-      "producer": "",
+      "producer": "Festival Ljubljana",
       "director": "Directed by Mykal Rand",
       "soundDesigner": "Sound Design by Chris Whybrow",
       "date": {
