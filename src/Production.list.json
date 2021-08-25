@@ -1483,6 +1483,11 @@
         }
       ],
       "quotes": [
+        {
+          "text": "some text",
+          "source": "someone",
+          "cw": true
+        }
       ]
     },
     {
