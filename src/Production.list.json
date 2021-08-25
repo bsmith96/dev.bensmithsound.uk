@@ -1485,7 +1485,7 @@
       "quotes": [
         {
           "text": "some text",
-          "source": "someone",
+          "source": "someone else",
           "cw": true
         }
       ]
