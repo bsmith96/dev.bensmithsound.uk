@@ -1482,13 +1482,7 @@
           "allow": ""
         }
       ],
-      "quotes": [
-        {
-          "text": "some text",
-          "source": "someone",
-          "cw": true
-        }
-      ]
+      "quotes": []
     },
     {
       "id": 18,
